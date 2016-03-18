@@ -1,0 +1,44 @@
+# Project information
+site_name: Contributing to BioJulia
+site_description: Contribution policy and guidelines for contributors
+site_author: The BioJulia Organisation
+site_url: https://biojulia.github.io/Contributing/
+
+# Repository
+repo_url:  https://github.com/BioJulia/Contributing
+
+# Copyright
+copyright: Copyright (c) 2016 The BioJulia Organisation
+
+# Documentation and theme
+theme: material
+docs_dir: 'build'
+
+# Options
+extra: 
+  author:
+    github: BioJulia
+  palette:
+    primary: 'indigo'
+    accent:  'blue'
+  
+extra_css:
+  - assets/Lapidary.css
+
+extra_javascript:
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+  - assets/mathjaxhelper.js
+
+# Extensions
+markdown_extensions:
+  - extra
+  - tables
+  - fenced_code
+  - codehilite
+
+# Page tree
+pages:
+  - Contributing: index.md
+  - Policy and Guidelines
+    - Pull Requests: pullrequests.md
+    
