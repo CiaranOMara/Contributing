@@ -1,5 +1,5 @@
 # Contributing
-![build](https://travis-ci.org/BioJulia/Contributing.svg?branch=master)
+[![Build Status](https://travis-ci.org/BioJulia/Contributing.svg?branch=master)](https://travis-ci.org/BioJulia/Contributing)
 
 **Contents:**
 
