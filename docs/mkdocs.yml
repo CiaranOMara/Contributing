@@ -39,6 +39,6 @@ markdown_extensions:
 # Page tree
 pages:
   - Contributing: index.md
-  - Policy and Guidelines
+  - Policy and Guidelines:
     - Pull Requests: pullrequests.md
     
