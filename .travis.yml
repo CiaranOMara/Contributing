@@ -15,4 +15,4 @@ before_script:
   - export PATH=$HOME/.local/bin:$PATH
 
 after_success:
-  - julia -e 'Pkg.clone("https://github.com/BioJulia/Contributing"); cd(Pkg.dir("Contributing")); include(joinpath("docs", "make.jl"))'
+  - julia -e 'Pkg.clone("https://github.com/MichaelHatherly/Lapidary.jl"); Pkg.clone("https://github.com/BioJulia/Contributing"); cd(Pkg.dir("Contributing")); include(joinpath("docs", "make.jl"))'
