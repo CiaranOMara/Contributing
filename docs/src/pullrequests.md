@@ -8,7 +8,7 @@ Before you start to work on your fix or addition to a BioJulia repository we rec
 Pull Requests on BioJulia repositories go through several stages, and these stages are indicated by the following labels. You should use these labels to help let others know how far your are along with your work :)
 
 Label          | Meaning
--------------- | ------------------
+-------------- | -------
 stage: planing | You're planning. Figuring out the best way to code something or discussing ideas
 stage: WIP     | You're coding or writing, actively working on it. 
 stage: RTR     | You're finished, and want others to review the work and see if it is ready to be accepted and merged into BioJulia.
