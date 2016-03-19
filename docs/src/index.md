@@ -17,12 +17,10 @@ We have a policy of being as open and inclusive as possible at all times, and we
 
 1. Contribute a package to BioJulia.
 2. [Join the BioJulia GitHub organisation.](joinbiojulia.md)
-3. File an issue
-   
-  1. Report a bug.
-  2. Offer suggestions.
-  3. Leave feedback.
-
+3. File an issue:
+    1. Reporting a bug.
+    2. Offering suggestions.
+    3. Leaving feedback.
 4. Contribute to existing BioJulia packages.
 5. Come and talk to us! :)
 
