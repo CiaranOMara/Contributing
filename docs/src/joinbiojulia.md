@@ -12,7 +12,7 @@ more of the following:
 4. [New code and additional functionality.](pullrequests.md)
 5. [Additional and improved unit tests of existing code.](pullrequests.md)
 6. [Additional or improved documentation of existing code and packages.](pullrequests.md)
-  
+
 None of these "requirements" are set in stone,
 but we prefer you to have done one or more of the above, as it 
 gives good confidence that you are familiar with the process of
