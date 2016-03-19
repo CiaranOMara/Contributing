@@ -27,5 +27,9 @@ We have a policy of being as open and inclusive as possible at all times, and we
 
 ### Come and talk to us! :)
 Finally, you can also get involved by comming and having a chat with us! :)
-We use Gitter for our chat rooms. Each one is listed below with a brief description and a link. Use these to ask your questions! 
+We use Gitter for our chat rooms. Each one is listed below with a link. Use these to ask your questions!
+
+| Room   | Link                                                                                                    |
+|--------|---------------------------------------------------------------------------------------------------------|
+| Bio.jl | [![Join the chat at Gitter!](https://badges.gitter.im/BioJulia.png)](https://gitter.im/BioJulia/Bio.jl) |
 
