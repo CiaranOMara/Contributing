@@ -19,7 +19,7 @@ extra:
   author:
     github: BioJulia
   palette:
-    primary: 'purple'
+    primary: 'indigo'
     accent:  'blue'
   
 extra_css:
