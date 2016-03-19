@@ -8,11 +8,12 @@ more of the following:
 
 1. You have registered a new package under BioJulia.
 2. Submitted and made significant/important pull-requests including any of the following.
-    1. A fix of a bug.
-    2. Performance improvements of existing code.
-    3. New code and additional functionality.
-    4. Additional and improved unit tests of existing code.
-    5. Additional or improved documentation of existing code and packages.
+
+  1. A fix of a bug.
+  2. Performance improvements of existing code.
+  3. New code and additional functionality.
+  4. Additional and improved unit tests of existing code.
+  5. Additional or improved documentation of existing code and packages.
   
 None of these "requirements" are set in stone,
 but we prefer you to have done one or more of the above, as it 

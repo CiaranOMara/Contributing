@@ -16,10 +16,12 @@ We have a policy of being as open and inclusive as possible at all times, and we
 ## How to get involved
 
 1. Contribute a package to BioJulia.
-2. Join the BioJulia GitHub organisation.
-3. File and issue
+2. [Join the BioJulia GitHub organisation.](joinbiojulia.md)
+3. File an issue
    
-  Report a bug, offer suggestions, leave feedback.
+  1. Report a bug.
+  2. Offer suggestions.
+  3. Leave feedback.
 
 4. Contribute to existing BioJulia packages.
 5. Come and talk to us! :)
