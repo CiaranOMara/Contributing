@@ -11,7 +11,7 @@ Please find a summary list of common ways you can get involved below. You will f
 
 ## Our community code of conduct
 
-We have a policy of being as open and inclusive as possible at all times, and we are always happy for people to contribute and join in the community. We welcome - and strive to be inclusive of - all people, of all backgrounds. To help use all achieve this we have a code of conduct that all members and visitors are expected to follow, please read this.
+We have a policy of being as open and inclusive as possible at all times, and we are always happy for people to contribute and join in the community. We welcome (and strive to be inclusive of) all people, of all backgrounds. To help us all achieve this we have a code of conduct that all members and visitors are expected to follow, please read this.
 
 ## How to get involved
 
@@ -19,15 +19,14 @@ We have a policy of being as open and inclusive as possible at all times, and we
 2. Join the BioJulia organisation.
 3. File and issue
    
-   Report a bug, offer suggestions, leave feedback.
+  Report a bug, offer suggestions, leave feedback.
 
 4. Contribute to existing BioJulia packages.
 5. Come and talk to us! :)
-   
-   Finally, you can also get involved by comming and having a chat with us! :)
-   We use Gitter for our chat rooms. Each one is listed below with a link. Use these to ask your questions!
 
-    | Room   | Link                                                                                                    | Description                              |
-    |--------|---------------------------------------------------------------------------------------------------------|------------------------------------------|
-    | Bio.jl | [![Join the chat at Gitter!](https://badges.gitter.im/BioJulia.png)](https://gitter.im/BioJulia/Bio.jl) | For discussion about the Bio.jl package. |
+We use Gitter for our chat rooms. Each one is listed below with a link. Use these to ask your questions!
+
+| Room   | Link                                                                                                    | Description                              |
+|--------|---------------------------------------------------------------------------------------------------------|------------------------------------------|
+| Bio.jl | [![Join the chat at Gitter!](https://badges.gitter.im/BioJulia.png)](https://gitter.im/BioJulia/Bio.jl) | For discussion about the Bio.jl package. |
 
