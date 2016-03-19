@@ -41,6 +41,8 @@ markdown_extensions:
 pages:
   - Contributing: index.md
   - Guidelines and policy:
-    - Join the BioJulia GitHub organisation: joinbiojulia.md
-    - Pull Requests: pullrequests.md
+    - Submitting a Package: package_submission.md 
+    - Pull Requests: pull_requests.md
+    - Code Style: code_style.md
+    - Join the BioJulia GitHub organisation: join_biojulia.md
     
