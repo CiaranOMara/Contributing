@@ -6,6 +6,7 @@ site_url: https://biojulia.github.io/Contributing/
 
 # Repository
 repo_url:  https://github.com/BioJulia/Contributing
+repo_name: 'Github'
 
 # Copyright
 copyright: Copyright (c) 2016 The BioJulia Organisation
