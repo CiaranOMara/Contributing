@@ -39,10 +39,11 @@ markdown_extensions:
 
 # Page tree
 pages:
-  - Contributing: index.md
-  - Guidelines and policy:
-    - Submitting a Package: package_submission.md 
-    - Pull Requests: pull_requests.md
-    - Code Style: code_style.md
-    - Join the BioJulia GitHub organisation: join_biojulia.md
+  - Contributing:
+    - Introduction: index.md
+    - Guidelines and policy:
+      - Submitting a Package: package_submission.md 
+      - Pull Requests: pull_requests.md
+      - Code Style: code_style.md
+      - Join the BioJulia GitHub organisation: join_biojulia.md
     
