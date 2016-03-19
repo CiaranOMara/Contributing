@@ -39,6 +39,7 @@ markdown_extensions:
 # Page tree
 pages:
   - Contributing: index.md
-  - Policy and Guidelines:
+  - Guidelines and policy:
+    - Join the BioJulia GitHub organisation: joinbiojulia.md
     - Pull Requests: pullrequests.md
     

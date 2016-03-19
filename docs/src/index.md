@@ -16,7 +16,7 @@ We have a policy of being as open and inclusive as possible at all times, and we
 ## How to get involved
 
 1. Contribute a package to BioJulia.
-2. Join the BioJulia organisation.
+2. Join the BioJulia GitHub organisation.
 3. File and issue
    
   Report a bug, offer suggestions, leave feedback.
