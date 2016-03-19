@@ -1,6 +1,6 @@
 # Contributing
 
-## Welcome! :) 
+## Welcome! 
 
 This documentation lays out the guidelines and some tutorials for
 Biologists, Bioinformaticians, and Computational Biologists, who want to contribute to the BioJulia community.
@@ -17,10 +17,7 @@ We have a policy of being as open and inclusive as possible at all times, and we
 
 1. Contribute a package to BioJulia.
 2. [Join the BioJulia GitHub organisation.](joinbiojulia.md)
-3. File an issue:
-    - Reporting a bug.
-    - Offering suggestions.
-    - Leaving feedback.
+3. File an issue reporting a bug, offering suggestions, or leaving feedback.
 4. Contribute to existing BioJulia packages.
 5. Come and talk to us! :)
 
