@@ -57,7 +57,8 @@ We enforce the following requirements in our packages.
 
 * Files that declare modules should only declare the module, and import any
   modules that it requires. Any code should be included from separate files.
-  E.g.:
+  E.g.
+
 
 ```julia
 module AwesomeFeatures
