@@ -5,7 +5,7 @@ site_author: The BioJulia Organisation
 site_url: https://biojulia.github.io/Contributing/
 
 # Repository
-repo_url:  https://github.com/BioJulia/Contributing
+repo_url:  https://github.com/BioJulia/Contributing/
 repo_name: 'Github'
 
 # Copyright
@@ -44,6 +44,6 @@ pages:
     - Guidelines and policy:
       - Submitting a Package: package_submission.md 
       - Pull Requests: pull_requests.md
-      - Code Style: code_style.md
+      - The BioJulia Code and Package Guidelines: code_style.md
       - Join the BioJulia GitHub organisation: join_biojulia.md
     

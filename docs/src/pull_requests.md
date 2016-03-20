@@ -6,6 +6,7 @@ take the form of pull requests.
 Before you start to work on your fix or addition to a BioJulia repository we recommend that you make your pull request early. This allows better collaboration with others, exchange of ideas, more code contributions from others (taking the pressure off you!), and better overall code as a result.
 
 ## The BioJulia Pull Request lifecycle
+
 Pull Requests on BioJulia repositories go through several stages, and these stages are indicated by the following labels. Please use these labels to help let others know how far your are along with your work.
 
 - **stage: planing**:
@@ -17,7 +18,8 @@ Pull Requests on BioJulia repositories go through several stages, and these stag
 
 ## The BioJulia Pull Request review
 
-Once the pull request enters the RTR (ready to review) stage, other members of the BioJulia organisation, will review the code and documentation in the pull request, and will assess it according to the code and documentation guidelines.
+Once the pull request enters the RTR (ready to review) stage, other members of the BioJulia organisation, will review the code and documentation in the pull request, and will assess it according to the
+[BioJulia code and package guidelines](code_style.md).
 
 Your pull request will be accepted and merged if:
 
