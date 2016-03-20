@@ -10,10 +10,13 @@ We enforce the following requirements in our packages.
    
    Documentation may be omitted if the function is not exported
    (i.e. only used internally) and is short and obvious. E.g. `cube(x) = x^3`.
-   However, we do recommend documenting it anyway, to help out fellow julia
-   coders and biologists when they are reading and understanding the code,
-   and we are trying to make BioJulia packages as easy as possible to use,
-   understand, and code on for everyone :)
+   
+   However, please consider that what may be obvious to you as the write of the
+   code, may not be obvious to others. Therefore, we do recommend documenting 
+   as much as possible, to help out fellow julia coders and biologists
+   when they are reading and understanding the code. We are trying to
+   make BioJulia packages as easy as possible to use, understand, and code
+   on for everyone :)
 
 2. In addition to documenting code in the source files through docstrings,
    we encourage contributers to create documentation which is more akin to
