@@ -59,16 +59,16 @@ We enforce the following requirements in our packages.
   modules that it requires. Any code should be included from separate files.
   E.g.:
   
-      ```julia
-      module AwesomeFeatures
+  ```julia
+  module AwesomeFeatures
       
-      using IntervalsTrees, JSON
+  using IntervalsTrees, JSON
       
-      include("feature1.jl")
-      include("feature2.jl")
+  include("feature1.jl")
+  include("feature2.jl")
       
-      end
-      ```
+  end
+  ```
 
 * Files that declare modules should have the same name name of the module.
   E.g the module `SomeModule` is declared under the file `SomeModule.jl`.
@@ -78,16 +78,16 @@ We enforce the following requirements in our packages.
 
 * When extending method definitions, explicitly import the method.
 
-      ```julia
-      import Base: start, next, done
-      ```
+  ```julia
+  import Base: start, next, done
+  ```
 
 * Document functions using bare docstrings before a definition:
 
-      ```julia
-      "This function foo's something"
-      foo(x) = 2*x
-      ```
+  ```julia
+  "This function foo's something"
+  foo(x) = 2*x
+  ```
 
 * Functions that get or set variables in a type should not be
   prefixed with 'get' or 'set'.
@@ -95,7 +95,7 @@ We enforce the following requirements in our packages.
   should have the same name as the getter, with the suffix `!`.
   For exmaple, for the variable `names`:
 
-      ```julia
-      name(node) # get node name
-      name!(node, "somename") # set node name
-      ```
+  ```julia
+  name(node) # get node name
+  name!(node, "somename") # set node name
+  ```
