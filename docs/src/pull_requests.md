@@ -16,6 +16,7 @@ Pull Requests on BioJulia repositories go through several stages, and these stag
   You're finished, and want others to review the work and see if it is ready to be accepted and merged into BioJulia.
   
 ## The BioJulia Pull Request review
+
 Once the pull request enters the RTR (ready to review) stage, other members of the BioJulia organisation, will review the code and documentation in the pull request, and will assess it according to the code and documentation guidelines.
 
 Your pull request will be accepted and merged if:
