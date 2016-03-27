@@ -23,7 +23,7 @@ We enforce the following requirements in our packages.
    a manual, complete with comprehensive explanations and examples of how 
    to use the package.
    
-   We use Lapidary.jl and mkdocs, to generate such documentation
+   We use Documenter.jl and mkdocs, to generate such documentation
    and host it on the web.
    The source markdown files for such manuals are kept in the `docs/src/man`
    folder of each BioJulia package/repository.
