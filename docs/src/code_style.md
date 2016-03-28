@@ -77,11 +77,15 @@ end
 * Separate logical blocks of code with one blank line,
   or two blank lines for function/type definitions.
 
-* When extending method definitions, explicitly import the method.
+* When extending method definitions, define the methods with a module name prefix. E.g.
 
 ```julia
-import Base: start, next, done
-```
+function Base.start(iter::YourType)
+  ...
+end
+
+Base.done(iter::YourType, state) = ...
+ ```
 
 * Document functions using bare docstrings before a definition:
 
