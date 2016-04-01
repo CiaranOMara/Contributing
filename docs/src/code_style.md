@@ -85,7 +85,7 @@ function Base.start(iter::YourType)
 end
 
 Base.done(iter::YourType, state) = ...
- ```
+```
 
 * Document functions using bare docstrings before a definition:
 
@@ -98,7 +98,7 @@ foo(x) = 2*x
   prefixed with 'get' or 'set'.
   The getter should be named for the variable it sets, and the setter
   should have the same name as the getter, with the suffix `!`.
-  For exmaple, for the variable `names`:
+  For example, for the variable `names`:
 
 ```julia
 name(node) # get node name
