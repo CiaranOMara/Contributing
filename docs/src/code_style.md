@@ -43,6 +43,9 @@ We enforce the following requirements in our packages.
 
 * Indent with 4 spaces.
 
+* When returning values from a function, use an explicit `return` statement. Be aware that functions in julia return the
+  the result of the last statement in the function. 
+
 * Type names are camel case, with the first letter capitalized. E.g. `SomeVeryUsefulType`.
 
 * Module names are also camel case.
