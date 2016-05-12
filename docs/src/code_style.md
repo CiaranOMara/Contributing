@@ -41,6 +41,18 @@ We enforce the following requirements in our packages.
 
 ## Style requirements for code
 
+* Source code files should have the following style of header:
+  ```
+  # Title
+  # =====
+  #
+  # Short description.
+  #
+  # [Long description (optional)]
+  #
+  # This file is a part of BioJulia. License is MIT: <link to the license file>
+  ```
+
 * Indent with 4 spaces.
 
 * When returning values from a function, use an explicit `return` statement. Be aware that functions in julia return the
