@@ -12,16 +12,13 @@ repo_name: 'Github'
 copyright: Copyright (c) 2016 The BioJulia Organisation
 
 # Documentation and theme
-theme: material
+theme: biojulia
 docs_dir: 'build'
 
 # Options
 extra: 
   author:
     github: BioJulia
-  palette:
-    primary: 'indigo'
-    accent:  'blue'
   
 extra_css:
   - assets/Documenter.css
