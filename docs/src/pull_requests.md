@@ -1,9 +1,11 @@
 # Contribute by pull requests
 
 Conributions of code and documentation to existing BioJulia repositories
-take the form of pull requests. 
+take the form of pull requests (PR's). 
 
 Before you start to work on your fix or addition to a BioJulia repository we recommend that you make your pull request early. This allows better collaboration with others, exchange of ideas, more code contributions from others (taking the pressure off you!), and better overall code as a result.
+
+The first thing all developers should do when making a PR is create themselves a fork of the BioJulia repository they want to contribute to, and then create a branch on that fork for the PR. This keeps the number of branches on the BioJulia repositories manageable and limited to release branches, and branches for major milestones involving work from many contributors. All developers, even those with push and pull access to BioJulia repositories, should follow this guidance.
 
 ## The BioJulia Pull Request lifecycle
 
