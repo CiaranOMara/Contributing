@@ -38,6 +38,13 @@ We enforce the following requirements in our packages.
    
 4. All code contributed should be compatible with the latest stable version of 
    Julia.
+   
+5. If your contribution to a BioJulia package introduces a method which is
+   shared among submodules, they should be declared in the top level module,
+   and then extended by the submodules. For example, in Bio.jl, the method
+   `seqname` was defined in `Bio.Seq` and overloaded by `Bio.Intervals` 
+   and `Bio.Align`. Therefore the declaration of the method was moved to `Bio`,
+   and the three submodules extend the declared method.
 
 ## Style requirements for code
 
