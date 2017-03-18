@@ -126,3 +126,28 @@ foo(x) = 2*x
 name(node) # get node name
 name!(node, "somename") # set node name
 ```
+
+* When using conditional branching, if code is statement-like, an
+  if-else block should be used. However if the code is expression-like
+  then julia's ternary operator should be used. E.g.
+ 
+```julia
+matches == sketchlen ? (return 1.0) : return matches / (2 * sketchlen - matches)
+
+#The above code is more statement-like, with two return statements
+#and so is more readable as a if-else block:
+
+if matches == sketchlin
+    return 1.0
+else
+    return matches / (2 * sketchlen - matches)
+end
+
+#However,
+
+x == y ? '|' : ' '
+
+#Returns one of two expression values; it is more expression-like
+#and so using a ternary operator is perfectly readable, and is
+#aceptable in BioJulia code.
+```
