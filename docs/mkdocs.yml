@@ -16,10 +16,10 @@ theme: biojulia
 docs_dir: 'build'
 
 # Options
-extra: 
+extra:
   author:
     github: BioJulia
-  
+
 extra_css:
   - assets/Documenter.css
 
@@ -36,11 +36,9 @@ markdown_extensions:
 
 # Page tree
 pages:
-- Contributing:
-  - Introduction: index.md
-  - Guidelines and policy:
-    - Submitting a Package: package_submission.md 
+- Home: index.md
+- Guidelines and policy:
+    - Submitting a Package: package_submission.md
     - Pull Requests: pull_requests.md
     - The BioJulia Code and Package Guidelines: code_style.md
     - Join the BioJulia GitHub organisation: join_biojulia.md
-    
