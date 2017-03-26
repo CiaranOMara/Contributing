@@ -1,7 +1,7 @@
 # Contribute by pull requests
 
 Conributions of code and documentation to existing BioJulia repositories
-take the form of pull requests (PR's). 
+take the form of pull requests (PR's).
 
 Before you start to work on your fix or addition to a BioJulia repository we recommend that you make your pull request early. This allows better collaboration with others, exchange of ideas, more code contributions from others (taking the pressure off you!), and better overall code as a result.
 
@@ -14,7 +14,7 @@ Pull Requests on BioJulia repositories go through several stages, and these stag
 - **stage: planing**:
   You're planning. Figuring out the best way to code something or discussing ideas.
 - **stage: WIP**:
-  You're coding or writing, actively working on it. 
+  You're coding or writing, actively working on it.
 - **stage: RTR**:
   You're finished, and want others to review the work and see if it is ready to be accepted and merged into BioJulia.
 
@@ -26,6 +26,4 @@ Once the pull request enters the RTR (ready to review) stage, other members of t
 Your pull request will be accepted and merged if:
 
 1. Two reviewers subsequently recommend the pull request for merging.
-2. The automated build system confirms that all unit tests pass without failiure. 
-
-
+2. The automated build system confirms that all unit tests pass without failiure.
