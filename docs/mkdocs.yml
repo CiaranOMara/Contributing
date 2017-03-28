@@ -36,13 +36,13 @@ markdown_extensions:
 
 # Page tree
 pages:
-- Home: index.md
-- Contribution Guides (How to...):
-    - Contribute fixes:
-    - Contribute packages: package_submission.md
-    - Join the BioJulia GitHub organisation: join_biojulia.md
-- Policies and Guidelines:
-    - Code Style: policy/code_style.md
-    - Package Requirements: policy/package_requirements.md
-    - Pull Requests: policy/pull_requests.md
-    - Off-boarding: policy/off_boarding.md
+  - Home: index.md
+  - Contribution Guides (How to...):
+      - Contribute fixes:
+      - Contribute packages: package_submission.md
+      - Join the BioJulia GitHub organisation: join_biojulia.md
+  - Policies and Guidelines:
+      - Code Style: policy/code_style.md
+      - Package Requirements: policy/package_requirements.md
+      - Pull Requests: policy/pull_requests.md
+      - Off-boarding: policy/off_boarding.md
