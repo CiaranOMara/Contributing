@@ -81,7 +81,7 @@ name!(node, "somename") # set node name
 
 * When using conditional branching, if code is statement-like, an
   if-else block should be used. However if the code is expression-like
-  then julia's ternary operator should be used. E.g.
+  then julia's ternary operator should be used.
 
 ```julia
 matches == sketchlen ? (return 1.0) : return matches / (2 * sketchlen - matches)

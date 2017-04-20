@@ -1,6 +1,6 @@
 using Documenter
 
-custom_deps() = run(`pip install --user pygments mkdocs mkdocs-biojulia`)
+custom_deps() = run(`pip install --user pygments mkdocs mkdocs-material`)
 makedocs()
 deploydocs(
            repo = "github.com/BioJulia/Contributing.git",

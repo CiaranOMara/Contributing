@@ -12,7 +12,7 @@ repo_name: 'Github'
 copyright: Copyright (c) 2016 The BioJulia Organisation
 
 # Documentation and theme
-theme: biojulia
+theme: material
 docs_dir: 'build'
 
 # Options
@@ -36,12 +36,12 @@ markdown_extensions:
 
 # Page tree
 pages:
-- Home: index.md
-- Contribution Guides (How to...):
+  - Home: index.md
+  - Contribution Guides (How to...):
     - Contribute fixes:
     - Contribute packages: package_submission.md
     - Join the BioJulia GitHub organisation: join_biojulia.md
-- Policies and Guidelines:
+  - Policies and Guidelines:
     - Code of conduct: policy/contributor_covenant.md
     - Code Style: policy/code_style.md
     - Package Requirements: policy/package_requirements.md
