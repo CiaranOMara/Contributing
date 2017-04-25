@@ -58,19 +58,19 @@ When deciding the risk associated with a report, and admin must consider:
 
 The following example table can be used to asses the risk and impact of incidents:
 
-|  | Low Risk | High Risk |
-|-------------|-------------------------------------|------------------------------------------------------|
-| Low Impact | Inappropriate jokes made in private | Member has previous reputation for online harassment |
-| High Impact | Constant inappropriate jokes | Persistent co-ordinated harassment |
+| Impact      | Low Risk                            | High Risk                                            |
+| ----------- | ----------------------------------- | ---------------------------------------------------- |
+| Low Impact  | Inappropriate jokes made in private | Member has previous reputation for online harassment |
+| High Impact | Constant inappropriate jokes        | Persistent co-ordinated harassment                   |
 
 ### Determining the response to an incident.
 
 Admins may use the following example table to help them decide on the
 appropriate action to take following an incident report.
 
-|  | Low Risk | High Risk |
-|-------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Low Impact | Verbal warning | Take notes and follow up later |  |  |
+| Impact      | Low Risk       | High Risk                                                                                                                           |
+| ----------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Low Impact  | Verbal warning | Take notes and follow up later                                                                                                      |
 | High Impact | Public apology | Co-Ordinated whole team response: Removal of member from pages and positions of responsibility. Possible block from group entirely. |
 
 If a member with a degree of responsibility and administrative privileges is the

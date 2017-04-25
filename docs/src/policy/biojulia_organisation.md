@@ -29,7 +29,7 @@ it to BioJulia.
 However, popular or larger packages may have multiple such dedicated
 maintainers.
 Dedicated maintainers may be recruited through on-boarding, and may leave their
-position through voluntarily off-boarding.
+position through voluntarily [off-boarding](@ref off_boarding).
 
 Dedicated maintainers are listed on their project's README file, and
 
@@ -38,12 +38,13 @@ package:
 
 1. Deciding the branching model used and how branches are protected.
 2. Reviewing pull requests, and issues for that package.
-3. To be the first contact for new contributors, community members and
+3. To tag releases of a package at suitable points in the lifetime of the package.
+4. To be the first contact for new contributors, community members and
    maintainers.
-4. To uphold the [BioJulia code of conduct](@ref conduct_code), and report any
+5. To uphold the [BioJulia code of conduct](@ref conduct_code), and report any
    incidents to a BioJulia [admin](@ref admin_members) member.
 
-Dedicated maintainers hold Admin level access for any package(s) for which they
+Dedicated maintainers hold admin level access for any package(s) for which they
 are listed as a dedicated maintainer, and so new contributors to BioJulia should
 rest assured they will not be 'giving up' any package they decide to contribute,
 they shall remain that package's administrator.   
