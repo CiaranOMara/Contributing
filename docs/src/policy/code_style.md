@@ -1,7 +1,8 @@
 ## Style requirements for code
 
 * Source code files should have the following style of header:
-  ```
+
+  ```julia
   # Title
   # =====
   #
@@ -65,12 +66,12 @@ Base.done(iter::YourType, state) = ...
 
 ```julia
 "This function foo's something"
-foo(x) = 2*x
+foo(x) = 2 * x
 ```
 
-* Functions that get or set variables in a type should not be
+* Functions that get or set variables in a struct should not be
   prefixed with 'get' or 'set'.
-  The getter should be named for the variable it sets, and the setter
+  The getter should be named for the variable it gets, and the setter
   should have the same name as the getter, with the suffix `!`.
   For example, for the variable `names`:
 

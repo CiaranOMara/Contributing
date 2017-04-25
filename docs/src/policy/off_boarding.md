@@ -1,4 +1,4 @@
-# The BioJulia off-boarding process
+# [The BioJulia off-boarding process](@id off_boarding)
 
 The BioJulia off-boarding process is designed to prevent security risks and
 confusion for the maintainers who are maintaining the BioJulia community at any
