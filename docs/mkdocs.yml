@@ -37,9 +37,9 @@ markdown_extensions:
 # Page tree
 pages:
 - Home: index.md
-- Contribution Guides (How to...):
-    - Contribute packages: package_submission.md
-    - Join the BioJulia GitHub organisation: join_biojulia.md
+- How do I....?:
+    - Contribute packages: help/package_submission.md
+    - Join the BioJulia GitHub organisation: help/join_biojulia.md
 - Policies and Guidelines:
     - Community Organisation: policy/biojulia_organisation.md
     - Code of conduct: policy/contributor_covenant.md

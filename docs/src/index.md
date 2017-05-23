@@ -7,17 +7,19 @@ Biologists, Bioinformaticians, and Computational Biologists, who want to contrib
 
 This documentation is split into two broad categories.
 
-The first section, called "Contribution Guides" contain a set of walkthrough
+The first section, called "How do I...?" contains a set of simple walkthrough
 style guides for contributing in different ways.
 
 The second section, called "Policies and Guidelines". This section contains
-the agreed on policies members, maintainers, and administrators are expected to
-adhere to.  
+the agreed on policies that members, maintainers, and administrators are expected
+to adhere to.  
 
 BioJulia welcomes contributions in several forms including through Github Pull
 Requests, through opening Github Issues, and through package submissions.
 BioJulia welcomes contributions of all kinds to the community, this includes but
 is not limited to code contributions.
+
+Take a look through the articles in the "How do I...?" section to get started.
 
 ## Our community code of conduct
 
