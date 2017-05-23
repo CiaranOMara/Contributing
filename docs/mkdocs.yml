@@ -40,6 +40,7 @@ pages:
 - How do I....?:
     - Contribute packages: help/package_submission.md
     - Join the BioJulia GitHub organisation: help/join_biojulia.md
+    - Choose a branching model: help/branching_guide.md
 - Policies and Guidelines:
     - Community Organisation: policy/biojulia_organisation.md
     - Code of conduct: policy/contributor_covenant.md

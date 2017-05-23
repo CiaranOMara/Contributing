@@ -20,7 +20,7 @@ Therefore, it made sense that maintainership of the packages should also be
 fairly decentralized, to achieve this, we created the role of a
 "Dedicated Maintainer", and have a Maintainers team.
 
-### Dedicated Maintainers  
+### [Dedicated Maintainers](@id dedicated_maintainers)  
 
 Packages have at least one "Dedicated Maintainer" who has admin access to the
 package.
