@@ -31,26 +31,55 @@ backup measure. They are always removed once the changes present on them are
 added to master.
 
 3. Features are integrated onto the master branch primarily in a way which keeps
-the history linear and simple. This is made easy since GitHub now allows you
-to [rebase and merge](https://github.com/blog/2243-rebase-and-merge-pull-requests)
-pull requests (But you have a lot of choice here, you could do rebases, you could
-use merge commits, and you could do some hybrid approach between the two).
+the history linear and simple. A good compromise to the rebase vs. merge commit
+debate for this step is to first do an interactive rebase of the feature branch
+on master, and then do a non-fast-forward merge.
+
+_Feature Example:_
+
+```sh
+git checkout -b feature/my-feature master
+
+... Make commits to feature/my-feature to finish the feature ...
+
+git rebase -i master
+git checkout master
+git merge --no-ff feature/my-feature
+git push origin master
+git branch -d feature/my-feature
+```
 
 ### Making releases
 
 4. You create a new branch for a new release. It branches off from `master` at the
-point that you decided `master` has all the necessary features.
+point that you decided `master` has all the necessary features. This is not
+necessarily the tip of the `master` branch.
 
 5. From then on new work, aimed for the _next_ release, is pushed to `master` as
 always, and any necessary changes for the _current_ release are pushed to the
 release branch. Once the release is ready, you tag the top of the release branch.
 
 6. Once the release is ready, tag the top of the release branch with a version
-number. Then merge the release branch into `master` and push that changed
-`master`. Any changes that were made during the release will now be part of
-`master`. Delete the release branch.
+number. Then do a typical merge of the release branch into `master`.
+Any changes that were made during the release will now be part of `master`.
+Delete the release branch.
 
-7. Do you pushes, and got to GitHub to make your release available.
+_Release Example:_
+
+```sh
+git checkout -b release/2.3.0 9efc5d
+
+... Make commits to release/2.3.0 to finish the release ...
+
+git tag 2.3.0
+git checkout master
+git merge release/2.3.0
+git push --tags origin master
+git branch -d release/2.3.0
+git push origin :release/2.3.0
+```
+
+7. Do your pushes, and go to GitHub to make your release available.
 
 ### Hot-fixes
 
@@ -61,3 +90,23 @@ release tag that you want to apply the fix to.
 
 10. When the fix is ready, tag the top of the fix branch with a new release,
 merge it into master, finally delete the hot-fix branch.
+
+_Hot-fix example:_
+
+```sh
+git checkout -b hotfix/2.3.1 2.3.0
+
+... Add commits which fix the problem ...
+
+git tag 2.3.1
+git checkout master
+git merge hotfix/2.3.1
+git push --tags origin master
+git branch -d hotfix/2.3.1
+```
+
+**IMPORTANT:**
+There is one special case when finishing a hot-fix branch.
+If a release branch has already been cut in preparation for the next release
+before the hot-fix was finished, you need to merge the hot-fix branch not to
+master, but to that release branch.
