@@ -28,3 +28,13 @@ are always happy for people to contribute and join in the community.
 We welcome (and strive to be inclusive of) all people, of all backgrounds.
 To help us all achieve this we have a [code of conduct](policy/contributor_covenant) that all members and
 visitors are expected to follow, please read this.
+
+## Package specific contribution rules
+
+As explained in the [Organization of the BioJulia community](@id community_structure)
+section, the structure of the BioJulia is not strictly centralized:
+different BioJulia people maintain different packages. So in addition to being
+familiar with the BioJulia Contribution guidelines presented in this manual,  
+it's also a good idea check out the online documentation for packages you use
+and/or contribute to, and see if there are additional contributing rules or
+guidelines.

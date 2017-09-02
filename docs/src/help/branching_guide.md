@@ -1,4 +1,4 @@
-# Choosing and using a brannching moded for a repo
+# Choosing and using a branching model for a repo
 
 If you are a [dedicated maintainer](@ref dedicated_maintainers) on a BioJulia
 package, you may be wondering which branching model to choose for development

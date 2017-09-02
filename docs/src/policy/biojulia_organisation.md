@@ -1,10 +1,10 @@
-# Organization of the BioJulia community.
+# [Organization of the BioJulia community](@id community_structure)
 
 In order to provide the best possible experience for new and existing users of
 Julia from the life-sciences. A little bit of structure and organization is
 necessary.
 
-## The package ecosystem and Maintainers.
+## The package ecosystem and Maintainers
 
 The BioJulia software ecosystem, around which the BioJulia community is based,
 consists of a growing number of individual packages.

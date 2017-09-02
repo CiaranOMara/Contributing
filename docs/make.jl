@@ -6,6 +6,7 @@ makedocs(
     pages = [
         "Home" => "index.md",
         "How do I...?" => [
+            "Make a pull-request (PR)" => "help/pull_requests.md",
             "Contribute packages" => "help/package_submission.md",
             "Join the BioJulia GitHub organisation" => "help/join_biojulia.md",
             "Choose a branching model" => "help/branching_guide.md"
@@ -16,7 +17,6 @@ makedocs(
             "Incident Response" => "policy/incident_response.md",
             "Code Style" => "policy/code_style.md",
             "Package Requirements" => "policy/package_requirements.md",
-            "Pull Requests" => "policy/pull_requests.md",
             "Off-boarding" => "policy/off_boarding.md"
         ]
     ],
