@@ -50,7 +50,7 @@ contributions that are not aligned to this Code of Conduct, or to ban
 temporarily or permanently any contributor for other behaviors that they deem
 inappropriate, threatening, offensive, or harmful.
 
-Please refer to the [Incident Response Procedure](@ref) that administrators
+Please refer to the [incident response](@ref incident_response) Procedure that administrators
 are expected to adhere to, to see how incidents will be handled.
 
 ### Scope
@@ -69,7 +69,8 @@ reported by contacting the dedicated maintainer of a BioJulia package. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+Further details of the specific enforcement policies are posted in the
+[incident response policy](@ref incident_response).
 
 Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other

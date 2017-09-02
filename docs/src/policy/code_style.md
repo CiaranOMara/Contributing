@@ -15,10 +15,12 @@
 
 * Indent with 4 spaces.
 
-* When returning values from a function, use an explicit `return` statement. Be aware that functions in julia return the
-  the result of the last statement in the function.
+* When returning values from a function, use an explicit `return` statement.
+Be aware that functions in julia implicitly return the the result of the last
+statement in the function.
 
-* Type names are camel case, with the first letter capitalized. E.g. `SomeVeryUsefulType`.
+* Type names are camel case, with the first letter capitalized. E.g.
+  `SomeVeryUsefulType`.
 
 * Module names are also camel case.
 
@@ -31,9 +33,8 @@
   onto multiple lines makes it harder to read.
 
 * Files that declare modules should only declare the module, and import any
-  modules that it requires. Any code should be included from separate files.
-  E.g.
-
+  modules that it requires. Any subsequent significant code should be included
+  from separate files. E.g.
 
 ```julia
 module AwesomeFeatures
@@ -85,7 +86,7 @@ name!(node, "somename") # set node name
   then julia's ternary operator should be used.
 
 ```julia
-matches == sketchlen ? (return 1.0) : return matches / (2 * sketchlen - matches)
+matches == sketchlen ? 1.0 : matches / (2 * sketchlen - matches)
 
 #The above code is more statement-like, with two return statements
 #and so is more readable as a if-else block:

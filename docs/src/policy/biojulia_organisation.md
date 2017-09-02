@@ -29,7 +29,7 @@ it to BioJulia.
 However, popular or larger packages may have multiple such dedicated
 maintainers.
 Dedicated maintainers may be recruited through on-boarding, and may leave their
-position through voluntarily [off-boarding](@ref off_boarding).
+position through [off-boarding](@ref off_boarding).
 
 Dedicated maintainers are listed on their project's README file, and
 
@@ -59,7 +59,7 @@ the BioJulia ecosystem.
 
 This allows for a community spirit where maintainers who are dedicated primarily
 to other packages may step in to help other maintainers to resolve a PR or issue.
-As such newer maintainers and researchers contributing a package to the BioJulia
+As such, newer maintainers and researchers contributing a package to the BioJulia
 ecosystem can rest assured help will always be at hand from our community.
 
 However, if you are a maintainer stepping in to help the dedicated maintainer(s)
@@ -87,4 +87,4 @@ even be founders present at the inception of the project.
 In order to become an admin, one does not necessarily have to contribute large
 amounts of code to the project. Rather the decision to on-board a member to
 an admin position depends on how long they have been using and contributing to
-BioJulia, their positive interaction with the community,
+BioJulia, and a positive interaction and involvement with the community,

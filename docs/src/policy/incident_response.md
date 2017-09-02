@@ -73,10 +73,15 @@ appropriate action to take following an incident report.
 | Low Impact  | Verbal warning | Take notes and follow up later                                                                                                      |
 | High Impact | Public apology | Co-Ordinated whole team response: Removal of member from pages and positions of responsibility. Possible block from group entirely. |
 
-If a member with a degree of responsibility and administrative privileges is the
-offender, they may be [off-boarded](@ref off_boarding) without the required
-notification period. This is to prevent the offending individual from abusing
-their position and retaliating against anyone they think made a report.
+As stated in the [off-boarding guidelines](@ref off_boarding), if a member with
+a degree of responsibility and administrative privileges is reported as
+breaching code of conduct, they may be off-boarded immediately without
+the required notification period. This is to prevent the offending individual
+from abusing their position and retaliating against anyone they think made a
+report. When a conduct breach incident is resolved, if the accused is to remain
+a BioJulia member, then the precautionary off-boarding can be reversed.
+If the consequence of a conduct breach is expulsion from BioJulia, then the
+off-boarding will not be reversed.
 
 ## Following up after acting on an incident
 
@@ -85,5 +90,6 @@ follow up with the individual(s) that made the report. This means letting the
 affected individual that made the report know the following:
 
 1. Was a code of conduct breach found.
-2. What was the response of the admin (e.g. reprimand, or more severe consequence.)
-3. Anything further that needs to be discussed.
+2. What was the response of the admin (e.g. reprimand, or more severe consequence.).
+3. Whether they are satisfied with the outcome of the process.
+4. Anything further that needs to be discussed.
