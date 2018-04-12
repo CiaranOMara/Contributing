@@ -9,3 +9,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - A new CHANGELOG file.
 - An example CHANGELOG file for all BioJulia projects.
+
+### Removed
+- The old Contributing site and Documenter.jl stuff.
