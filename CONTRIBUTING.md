@@ -191,7 +191,7 @@ This template will help you to follow the guidance below.
 
 When you are creating a bug report, please do the following:
 
-1. **Explain the problem.**
+1. **Explain the problem**
 
    - *Use a clear and descriptive title* for the issue to identify the problem.
    - *Describe the exact steps which reproduce the problem* in as many details as possible.
@@ -210,7 +210,7 @@ When you are creating a bug report, please do the following:
        macOS and Windows, or [this tool](https://github.com/colinkeenan/silentcast)
        or [this tool](https://github.com/GNOME/byzanz) on Linux.
 
-2. **Provide additional context for the problem (some of these may not always apply).**
+2. **Provide additional context for the problem (some of these may not always apply)**
 
    - *Did the problem start happening recently* (e.g. after updating to a new version)?
      - If the problem started recently, *can you reproduce the problem in older versions?*
@@ -226,7 +226,7 @@ When you are creating a bug report, please do the following:
      - Does the problem happen for files of a specific type, size, or encoding?
      - Is there anything else special about the files you are using?
 
-3. **Include details about your configuration and environment.**
+3. **Include details about your configuration and environment**
 
 - *Which version of the package are you using?*
 
@@ -274,36 +274,36 @@ filling in [our enhancement suggestion template](.github/ISSUE_TEMPLATE/SUGGESTI
 This template will help you to follow the guidance below.
 
 1. **Explain the enhancement**
-   - **Use a clear and descriptive title** for the issue to identify the suggestion.
-   - **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
-   - **Provide specific examples to demonstrate the steps**.
+   - *Use a clear and descriptive title* for the issue to identify the suggestion.
+   - *Provide a step-by-step description of the suggested enhancement* in as many details as possible.
+   - *Provide specific examples to demonstrate the steps*.
      Include copy/pasteable snippets which you use in those examples, as
      [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
 
    - If you want to change current behaviour...
-     - Describe the **current** behaviour.
-     - **Explain which behaviour you expected** to see instead and **why**.
-     - **Will the proposed change alter APIs or existing exposed methods/types?**
+     - Describe the *current* behaviour.
+     - *Explain which behaviour you expected* to see instead and *why*.
+     - *Will the proposed change alter APIs or existing exposed methods/types?*
        If so, this may cause dependency issues and breakages, so the maintainer
        will need to consider this when versioning the next release.
 
-* **OPTIONALLY: Include screenshots and animated GIFs**.
-  You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on
-  macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast)
-  or [this tool](https://github.com/GNOME/byzanz) on Linux.
+   - *OPTIONALLY: Include screenshots and animated GIFs*.
+     You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on
+     macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast)
+     or [this tool](https://github.com/GNOME/byzanz) on Linux.
 
-##### 2. Provide additional context for the enhancement
+2. **Provide additional context for the enhancement**
 
-* **Explain why this enhancement would be useful** to most BioJulia users and
-  isn't something that can or should be implemented as a separate package.
+   - *Explain why this enhancement would be useful* to most BioJulia users and
+     isn't something that can or should be implemented as a separate package.
 
-* **Do you know of other projects where this enhancement exists?**
+   - *Do you know of other projects where this enhancement exists?*
 
-##### 3. Include details about your configuration and environment:
+3. **Include details about your configuration and environment**
 
-* **Specify which version of the package you're using.**
+   - Specify which *version of the package* you're using.
 
-* **Specify the name and version of the OS you're using.**
+   - Specify the name and *version of the OS* you're using.
 
 *Note: All of the above guidance is included in the [template](.github/ISSUE_TEMPLATE/SUGGESTION.md) for your convenience.*
 
