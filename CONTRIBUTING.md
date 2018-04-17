@@ -341,57 +341,58 @@ BioSequences.jl it creates in your current directory.
 
 #### How to make (good) code contributions and new Pull-Requests
 
-* **Use the [pull request template](.github/PULL_REQUEST_TEMPLATE.md)**
+1. **In your code**
 
-* Provide a clear, simple, descriptive title.
+   - Follow the [julia style guide](https://docs.julialang.org/en/stable/manual/style-guide/).
 
-* Do not include issue numbers in the PR title.
+   - Follow the [julia performance tips](https://docs.julialang.org/en/stable/manual/performance-tips/).
 
-* Follow the [julia style guide](https://docs.julialang.org/en/stable/manual/style-guide/).
+   - Update and add docstrings for new code, consistent with the [documentation styleguide](https://docs.julialang.org/en/stable/manual/documentation/).
 
-* Follow the [julia performance tips](https://docs.julialang.org/en/stable/manual/performance-tips/).
+   - Update information in the documentation located in the `docs/src/`
+     folder of the package/repository if necessary.
 
-* Update and add docstrings for new code, consistent with the [documentation styleguide](https://docs.julialang.org/en/stable/manual/documentation/).
+   - Ensure that unit tests have been added which cover your code changes.
 
-* Update information in the documentation located in the `docs/src/`
-  folder of the package/repository if necessary.
+   - Ensure that you have added an entry to the `[UNRELEASED]` section of the
+     manually curated `CHANGELOG.md` file for the package. Use previous entries as
+     an example. Ensure the `CHANGELOG.md` is consistent with the
+    recommended [changelog style](EXAMPLE_CHANGELOG.md).
 
-* Ensure that unit tests have been added which cover your code changes.
+   - All changes should be compatible with the latest stable version of
+     Julia.
 
-* Ensure that you have added an entry to the `[UNRELEASED]` section of the
-  manually curated `CHANGELOG.md` file for the package. Use previous entries as
-  an example. Ensure the `CHANGELOG.md` is consistent with the
-  recommended [changelog style](EXAMPLE_CHANGELOG.md).
+   - Please comment liberally for complex pieces of internal code to facilitate comprehension.
 
-* All changes should be compatible with the latest stable version of
-  Julia.
+2. **In your pull request**
 
-* Please comment liberally for complex pieces of internal code to facilitate comprehension.
+   - **Use the [pull request template](.github/PULL_REQUEST_TEMPLATE.md)**
 
-* If you have implemented new features or behaviour
-  * **Provide a description of the addition** in as many details as possible.
+   - *Describe* the changes in the pull request
 
-  * **Provide justification of the addition**.
+   - Provide a *clear, simple, descriptive title*.
 
-  * **Provide a runnable example of use of your addition**. This lets reviewers
-    and others try out the feature before it is merged or makes it's way to release.
+   - Do not include issue numbers in the PR title.
 
-* If you have changed current behaviour...
-  * **Describe the behaviour prior to you changes**
+   - If you have implemented *new features* or behaviour
+     - *Provide a description of the addition* in as many details as possible.
+     - *Provide justification of the addition*.
+     - *Provide a runnable example of use of your addition*. This lets reviewers
+       and others try out the feature before it is merged or makes it's way to release.
 
-  * **Describe the behaviour after your changes** and justify why you have made the changes.
-
-  * **Does your change alter APIs or existing exposed methods/types?**
-    If so, this may cause dependency issues and breakages, so the maintainer
-    will need to consider this when versioning the next release.
-
-  * If you are implementing changes that are intended to increase performance, you
-    should provide the results of a simple performance benchmark exercise
-    demonstrating the improvement. Especially if the changes make code less legible.
+   - If you have *changed current behaviour*...
+     - *Describe the behaviour prior to you changes*
+     - *Describe the behaviour after your changes* and justify why you have made the changes.
+     - *Does your change alter APIs or existing exposed methods/types?*
+       If so, this may cause dependency issues and breakages, so the maintainer
+       will need to consider this when versioning the next release.
+     - If you are implementing changes that are intended to increase performance, you
+       should provide the results of a simple performance benchmark exercise
+       demonstrating the improvement. Especially if the changes make code less legible.
 
 *Note: All of the above guidance is included in the [template](.github/PULL_REQUEST_TEMPLATE.md) for your convenience.*
 
-#### Pull Request reviews and merging
+#### Reviews and merging
 
 You can open a pull request early on and push changes to it until it is ready,
 or you can do all your editing locally and make a pull request only when it is
@@ -410,6 +411,11 @@ Your pull request will be accepted and merged if:
 There may be package-specific requirements or guidelines for contributors with
 some of BioJulia's packages. Most of the time there will not be, the maintainers
 will let you know.
+
+It may also be that the reviewers or package maintainers will want to you to make
+changes to your pull request before they will merge it. Take the time to
+understand why any such request has been made. Feedback you receive should be
+constructive and considerate (also see [here](#etiquette-and-conduct)).
 
 ### Submitting a package to BioJulia
 
