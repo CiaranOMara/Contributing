@@ -12,8 +12,6 @@ pull request.
 
 #### Table of contents
 
-[Code of Conduct](#code-of-conduct)
-
 [I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
 
 [What should I know before I get started?](#what-should-i-know-about-biojulia-before-i-get-started)
@@ -23,7 +21,7 @@ pull request.
 
 [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs](#reporting-bugs)
-  * [Suggesting Enhancements](#suggesting-enhancements)
+  * [Suggesting an Enhancement](#suggest-an-enhancement)
   * [Making Pull Requests](#pull-requests)
   * [Become a BioJulia package maintainer](#become-a-biojulia-package-maintainer)
   * [Financial](#financial)
@@ -186,64 +184,58 @@ Please do the following:
 #### How to create a (good) new bug report:
 
 Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
-After you've determined [which repository](https://https://github.com/BioJulia)
+After you've determined [which repository](https://github.com/BioJulia)
 your bug is related to, create an issue on that repository and provide the
 following information by filling in [our bug report template](.github/ISSUE_TEMPLATE/BUG_REPORT.md).
 This template will help you to follow the guidance below.
 
 When you are creating a bug report, please do the following:
 
-##### 1. Explain the problem
+1. **Explain the problem.**
 
-Include additional details to help maintainers reproduce the problem:
+   - *Use a clear and descriptive title* for the issue to identify the problem.
+   - *Describe the exact steps which reproduce the problem* in as many details as possible.
+     - Which function / method exactly you used?
+     - What arguments or parameters were used?
+     - *Provide a specific example*. (Includes links to pastebin, gists and so on.)
+       If you're providing snippets in the issue, use
+       [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
 
-* **Use a clear and descriptive title** for the issue to identify the problem.
+   - *Describe the behavior you observed after following the steps*
+     - Point out what exactly is the problem with that behavior.
+     - *Explain which behavior you expected to see instead and why.*
+     - *OPTIONALLY: Include screenshots and animated GIFs* which show you
+       following the described steps and clearly demonstrate the problem.
+       You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on
+       macOS and Windows, or [this tool](https://github.com/colinkeenan/silentcast)
+       or [this tool](https://github.com/GNOME/byzanz) on Linux.
 
-* **Describe the exact steps which reproduce the problem** in as many details as possible.
-  * Which function / method exactly you used?
-  * What arguments or parameters were used?
-  * **Provide a specific example**. (Includes links to pastebin, gists and so on.)
-    If you're providing snippets in the issue, use
-    [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+2. **Provide additional context for the problem (some of these may not always apply).**
 
-* **Describe the behavior you observed after following the steps**
-  * Point outwhat exactly is the problem with that behavior.
-  * **Explain which behavior you expected to see instead and why.**
-  * **OPTIONALLY: Include screenshots and animated GIFs** which show you
-    following the described steps and clearly demonstrate the problem.
-    You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on
-    macOS and Windows, or [this tool](https://github.com/colinkeenan/silentcast)
-    or [this tool](https://github.com/GNOME/byzanz) on Linux.
+   - *Did the problem start happening recently* (e.g. after updating to a new version)?
+     - If the problem started recently, *can you reproduce the problem in older versions?*
+     - Do you know the most recent package version in which the problem doesn't happen?
 
-##### 2. Provide additional context for the problem
+   - *Can you reliably reproduce the issue?* If not...
+     - Provide details about how often the problem happens.
+     - Provide details about under which conditions it normally happens.
 
-Provide more context by answering these questions some of these may not always
-apply:
+   - Is the problem is related to *working with files*? If so....
+     - Does the problem happen for all files and projects or only some?
+     - Does the problem happen only when working with local or remote files?
+     - Does the problem happen for files of a specific type, size, or encoding?
+     - Is there anything else special about the files you are using?
 
-* **Did the problem start happening recently** (e.g. after updating to a new version)?
-  * If the problem started recently, **can you reproduce the problem in older versions?**
-  * Do you know the most recent package version in which the problem doesn't happen?
+3. **Include details about your configuration and environment.**
 
-* **Can you reliably reproduce the issue?** If not...
-  * Provide details about how often the problem happens.
-  * Provide details about under which conditions it normally happens.
+- *Which version of the package are you using?*
 
-* Is the problem is related to **working with files**? If so....
-  * Does the problem happen for all files and projects or only some?
-  * Does the problem happen only when working with local or remote files?
-  * Does the problem happen for files of a specific type, size, or encoding?
-  * Is there anything else special about the files you are using?
+- *What's the name and version of the OS you're using?*
 
-##### 3. Include details about your configuration and environment:
+- *Which julia packages do you have installed?*
 
-* **Which version of the package are you using?**
-
-* **What's the name and version of the OS you're using?**
-
-* **Which julia packages do you have installed?**
-
-* Are you using local configuration files to customize julia behaviour? If so...
-  * Please provide the contents of those files, preferably in a
+- Are you using local configuration files to customize julia behaviour? If so...
+  - Please provide the contents of those files, preferably in a
   [code block](https://help.github.com/articles/markdown-basics/#multiple-lines)
   or with a link to a [gist](https://gist.github.com/).
 
@@ -267,10 +259,10 @@ your suggestion :pencil: and find related suggestions :mag_right:.
   * If it has not, open a new issue as per the guidance below.
   * If it has...
     * Add a comment to the existing issue instead of opening a new one.
-    * If has been closed and rejected, take the time to understand why
-      this was so, and consider whether anything has changed that makes the reason
-      outdated. If you can think of a convincing reason to reconsider the enhancement,
-      feel free to open a new issue as per the guidance below.
+    * If it was closed, take the time to understand why this was so (it's ok to
+      ask! :) ), and consider whether anything has changed that makes the reason
+      outdated. If you can think of a convincing reason to reconsider the
+      enhancement, feel free to open a new issue as per the guidance below.
 
 #### How to submit a (good) new enhancement suggestion
 
@@ -281,21 +273,19 @@ create an issue on that repository and provide the following information by
 filling in [our enhancement suggestion template](.github/ISSUE_TEMPLATE/SUGGESTION.md).
 This template will help you to follow the guidance below.
 
-##### 1. Explain the enhancement
+1. **Explain the enhancement**
+   - **Use a clear and descriptive title** for the issue to identify the suggestion.
+   - **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
+   - **Provide specific examples to demonstrate the steps**.
+     Include copy/pasteable snippets which you use in those examples, as
+     [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
 
-* **Use a clear and descriptive title** for the issue to identify the suggestion.
-
-* **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
-    * **Provide specific examples to demonstrate the steps**.
-      Include copy/pasteable snippets which you use in those examples, as
-      [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
-
-* If you want to change current behaviour...
-  * **Describe the current behaviour**
-  * **Explain which behaviour you expected to see instead** and why.
-  * **Will the proposed change alter APIs or existing exposed methods/types?**
-    If so, this may cause dependency issues and breakages, so the maintainer
-    will need to consider this when versioning the next release.
+   - If you want to change current behaviour...
+     - Describe the **current** behaviour.
+     - **Explain which behaviour you expected** to see instead and **why**.
+     - **Will the proposed change alter APIs or existing exposed methods/types?**
+       If so, this may cause dependency issues and breakages, so the maintainer
+       will need to consider this when versioning the next release.
 
 * **OPTIONALLY: Include screenshots and animated GIFs**.
   You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on
@@ -720,7 +710,7 @@ outline three principles of etiquette we expect members and contributors to abid
 Anybody violating these principles in order to upset any member or contributor
 may be flagged to the BioJulia admins who will decide on an appropriate
 course of action. This includes locking conversations for cool-off periods or
-even bans.
+even bans of individuals.
 
 #### 1. Be welcoming, friendly and patient.
 
