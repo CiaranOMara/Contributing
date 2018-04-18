@@ -1,4 +1,4 @@
-# [ENHANCEMENT SUGGESTION] <Please provide a clear and descriptive title>
+# :sparkles: [ENHANCEMENT SUGGESTION] <Please provide a clear and descriptive title>
 
 ## Enhancement description
 

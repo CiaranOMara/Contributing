@@ -640,7 +640,7 @@ git push origin master
 git branch -d feature/my-feature
 ```
 
-#### :star: Making new releases
+#### :sparkles: Making new releases
 
 1. You create a new branch for a new release. It branches off from `master` at the
    point that you decided `master` has all the necessary features. This is not

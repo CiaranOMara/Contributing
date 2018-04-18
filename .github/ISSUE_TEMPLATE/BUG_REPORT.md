@@ -1,4 +1,4 @@
-# [BUG REPORT] <Please provide a clear and descriptive title>
+# :bug: [BUG REPORT] <Please provide a clear and descriptive title>
 
 ## Problem Description
 
