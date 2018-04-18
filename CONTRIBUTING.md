@@ -162,7 +162,7 @@ Files for tests for a module go into an appropriately named folder, within the
 
 Here we show you how to submit a bug report for a BioJulia repository.
 If you follow the advice here, BioJulia maintainers and the community will
-better understand your report :pencil:, be able to reproduce the behavior
+better understand your report :pencil:, be able to reproduce the behaviour
 :computer: :computer:, and identify related problems :mag_right:.
 
 #### Before creating a bug report:
@@ -201,9 +201,9 @@ When you are creating a bug report, please do the following:
        If you're providing snippets in the issue, use
        [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
 
-   - *Describe the behavior you observed after following the steps*
-     - Point out what exactly is the problem with that behavior.
-     - *Explain which behavior you expected to see instead and why.*
+   - *Describe the behaviour you observed after following the steps*
+     - Point out what exactly is the problem with that behaviour.
+     - *Explain which behaviour you expected to see instead and why.*
      - *OPTIONALLY: Include screenshots and animated GIFs* which show you
        following the described steps and clearly demonstrate the problem.
        You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on
@@ -303,7 +303,7 @@ This template will help you to follow the guidance below.
 
    - Specify which *version of the package* you're using.
 
-   - Specify the name and *version of the OS* you're using.
+   - Specify the *name and version of the OS* you're using.
 
 *Note: All of the above guidance is included in the [template](.github/ISSUE_TEMPLATE/SUGGESTION.md) for your convenience.*
 
@@ -341,9 +341,11 @@ BioSequences.jl it creates in your current directory.
 
 #### How to make (good) code contributions and new Pull-Requests
 
-1. **In your code**
+1. **In your code changes**
 
    - Follow the [julia style guide](https://docs.julialang.org/en/stable/manual/style-guide/).
+
+   - Follow the [additional style suggestions](#additional-julia-code-style-suggestions).
 
    - Follow the [julia performance tips](https://docs.julialang.org/en/stable/manual/performance-tips/).
 
@@ -414,8 +416,9 @@ will let you know.
 
 It may also be that the reviewers or package maintainers will want to you to make
 changes to your pull request before they will merge it. Take the time to
-understand why any such request has been made. Feedback you receive should be
-constructive and considerate (also see [here](#etiquette-and-conduct)).
+understand why any such request has been made, and freely discuss it with the
+reviewers. Feedback you receive should be constructive and considerate
+(also see [here](#etiquette-and-conduct)).
 
 ### Submitting a package to BioJulia
 
@@ -436,7 +439,7 @@ and endorsed by - the BioJulia organization, you're agreeing to the following:
 
 To submit your package, follow these steps:
 
-1. Announce your package on the BioJulia Gitter channel.
+1. Introduce yourself and your package on the BioJulia Gitter channel.
 2. At this point maintainers will reach out to mentor and vouch for you and your package. They will:
   1. Discuss with you a suitable name.
   2. Help you ensure the the package is up to standard, and meets the code and contribution guidelines described on this site.
@@ -724,7 +727,7 @@ Be welcoming. We strive to welcome and support any individual participating in
 BioJulia activities to any extent (from developing code, to support seeking
 users). We have even been known to have a few members on our Gitter who are not
 Biologists, but they enjoy the forum, like what we do, and stick around for the
-programming chat. All are welcome (yes including _you_! :-) ).
+programming chat. All are welcome (yes including _you_! :smile:).
 
 #### 2. Be considerate.
 
@@ -739,7 +742,7 @@ in someone else's primary language.
 #### 4. Be respectful.
 
 Not all of us will agree all the time, but disagreement is no excuse for poor
-behavior and poor manners. We might all experience some frustration now and then,
+behaviour and poor manners. We might all experience some frustration now and then,
 but we cannot allow that frustration to turn into a personal attack.
 It’s important to remember that a community where people feel uncomfortable or
 threatened is not a productive or fun community.
@@ -747,17 +750,17 @@ Members of the BioJulia community should be respectful when dealing with other
 members as well as with people outside the BioJulia community.
 
 Please do not insult or put down other participants.
-Harassment and other exclusionary behavior is not acceptable.
+Harassment and other exclusionary behaviour is not acceptable.
 This includes, but is not limited to:
-   * Violent threats or language directed against another person.
-   * Prejudiced, bigoted, or intolerant, jokes and language.
-   * Posting sexually explicit or violent material.
-   * Posting (or threatening to post) other people's personally identifying
+   - Violent threats or language directed against another person.
+   - Prejudiced, bigoted, or intolerant, jokes and language.
+   - Posting sexually explicit or violent material.
+   - Posting (or threatening to post) other people's personally identifying
      information ("doxing").
-   * Personal insults, especially those using racist or sexist terms.
-   * Unwelcome sexual attention.
-   * Advocating for, or encouraging, any of the above behavior.
-   * Repeated harassment of others. In general, if someone asks you to stop,
+   - Personal insults, especially those using racist or sexist terms.
+   - Unwelcome sexual attention.
+   - Advocating for, or encouraging, any of the above behaviour.
+   - Repeated harassment of others. In general, if someone asks you to stop,
      then stop.
 
 When we disagree, try to understand why.
