@@ -14,24 +14,25 @@ pull request.
 
 [I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
 
-[What should I know before I get started?](#what-should-i-know-about-biojulia-before-i-get-started)
-  * [BioJulia Package Maintainers](#biojulia-package-maintainers)
-  * [BioJulia Administrators](#biojulia-administrators)
-  * [Package Conventions](#package-conventions)
+[What should I know about BioJulia before I get started?](#what-should-i-know-about-biojulia-before-i-get-started)
+  - [BioJulia Package Maintainers](#biojulia-package-maintainers)
+  - [BioJulia Administrators](#biojulia-administrators)
+  - [Etiquette and conduct](#etiquette-and-conduct)
+  - [Package Conventions](#package-conventions)
 
 [How Can I Contribute?](#how-can-i-contribute)
-  * [Reporting Bugs](#reporting-bugs)
-  * [Suggesting an Enhancement](#suggest-an-enhancement)
-  * [Making Pull Requests](#pull-requests)
-  * [Become a BioJulia package maintainer](#become-a-biojulia-package-maintainer)
-  * [Financial](#financial)
+  - [Reporting Bugs](#reporting-bugs)
+  - [Suggesting an Enhancement](#suggest-an-enhancement)
+  - [Making Pull Requests](#pull-requests)
+  - [Become a BioJulia package maintainer](#become-a-biojulia-package-maintainer)
 
 [Styleguides](#styleguides)
-  * [Git Commit Messages](#git-commit-messages)
-  * [Additional julia style suggestions](#additional-julia-style-suggestions)
-  * [Documentation Styleguide](#documentation-styleguide)
+  - [Git Commit Messages](#git-commit-messages)
+  - [Additional julia style suggestions](#additional-julia-style-suggestions)
+  - [Documentation Styleguide](#documentation-styleguide)
 
 [Additional notes](#additional-notes)
+  - [A suggested branching model](#a-suggested-branching-model)
 
 ## I don't want to read this whole thing I just have a question!!!
 
@@ -115,7 +116,13 @@ The admin team is expected to:
    platforms used by BioJulia, and the maintenance of any hardware like
    servers owned and used by BioJulia.
 
-#### Package conventions
+### Etiquette and conduct
+
+BioJulia outlines a [statement of etiquette and conduct](CODE_OF_CONDUCT.md)
+that all members and contributors are expected to uphold. Please take the time
+to read and understand this statement.
+
+### Package conventions
 
 First, be familiar with the official julia documentation on:
 
@@ -245,13 +252,13 @@ When you are creating a bug report, please do the following:
 
 ### Suggest an Enhancement
 
-This section explains how to submit enhancement suggestion for a BioJulia
+This section explains how to submit an enhancement proposal for a BioJulia
 package. This includes completely new features, as well as minor improvements to
 existing functionality.
 Following these suggestions will help maintainers and the community understand
 your suggestion :pencil: and find related suggestions :mag_right:.
 
-#### Before Submitting An Enhancement Suggestion
+#### Before Submitting An Enhancement Proposal
 
 * **Check if there's already [a package](https://github.com/BioJulia) which provides that enhancement.**
 
@@ -266,13 +273,13 @@ your suggestion :pencil: and find related suggestions :mag_right:.
       outdated. If you can think of a convincing reason to reconsider the
       enhancement, feel free to open a new issue as per the guidance below.
 
-#### How to submit a (good) new enhancement suggestion
+#### How to submit a (good) new enhancement proposal
 
-Enhancement suggestions are tracked as
+Enhancement proposals are tracked as
 [GitHub issues](https://guides.github.com/features/issues/).
-After you've determined which package your enhancement suggestion is related to,
+After you've determined which package your enhancement proposals is related to,
 create an issue on that repository and provide the following information by
-filling in [our enhancement suggestion template](.github/ISSUE_TEMPLATE/SUGGESTION.md).
+filling in [our enhancement proposal template](.github/ISSUE_TEMPLATE/SUGGESTION.md).
 This template will help you to follow the guidance below.
 
 1. **Explain the enhancement**
@@ -715,85 +722,3 @@ There is one special case when finishing a hot-fix branch.
 If a release branch has already been cut in preparation for the next release
 before the hot-fix was finished, you need to merge the hot-fix branch not to
 master, but to that release branch.
-
-### Etiquette and Conduct
-
-As you interact with other members of the BioJulia group, or make contributions.
-
-You may have revisions and suggestions on your pull request from BioJulia members or others
-which they want to be implemented before they will merge your pull request.
-
-You may also have disagreements with people on the forums or chats maintained by
-BioJulia.
-
-In order to keep BioJulia a civil and enjoyable place, where technical disagreements
-and issues can be discussed and resolved in a mature and constructive way, we
-outline three principles of etiquette we expect members and contributors to abide by.
-
-Anybody violating these principles in order to upset any member or contributor
-may be flagged to the BioJulia admins who will decide on an appropriate
-course of action. This includes locking conversations for cool-off periods or
-even bans of individuals.
-
-#### 1. Be welcoming, friendly and patient.
-
-Be welcoming. We strive to welcome and support any individual participating in
-BioJulia activities to any extent (from developing code, to support seeking
-users). We have even been known to have a few members on our Gitter who are not
-Biologists, but they enjoy the forum, like what we do, and stick around for the
-programming chat. All are welcome (yes including _you_! :smile:).
-
-#### 2. Be considerate.
-
-Your work will be used by other people, and you in turn will depend on the work
-of others. From any code you make, to any support questions you ask or answer!
-Any decision you take will affect users and colleagues, and you should take
-those consequences into account when making decisions.
-
-Remember that we're a world-wide community, so you might not be communicating
-in someone else's primary language.
-
-#### 4. Be respectful.
-
-Not all of us will agree all the time, but disagreement is no excuse for poor
-behaviour and poor manners. We might all experience some frustration now and then,
-but we cannot allow that frustration to turn into a personal attack.
-It’s important to remember that a community where people feel uncomfortable or
-threatened is not a productive or fun community.
-Members of the BioJulia community should be respectful when dealing with other
-members as well as with people outside the BioJulia community.
-
-Please do not insult or put down other participants.
-Harassment and other exclusionary behaviour is not acceptable.
-This includes, but is not limited to:
-   - Violent threats or language directed against another person.
-   - Prejudiced, bigoted, or intolerant, jokes and language.
-   - Posting sexually explicit or violent material.
-   - Posting (or threatening to post) other people's personally identifying
-     information ("doxing").
-   - Personal insults, especially those using racist or sexist terms.
-   - Unwelcome sexual attention.
-   - Advocating for, or encouraging, any of the above behaviour.
-   - Repeated harassment of others. In general, if someone asks you to stop,
-     then stop.
-
-When we disagree, try to understand why.
-Disagreements, both social and technical, happen all the time and this
-community is unlikely to be any exception!
-It is important that we resolve disagreements and differing views constructively.
-Different people have different perspectives on issues.
-Being unable to understand why someone holds a viewpoint doesn’t mean that
-they’re wrong.
-Don’t forget that it is human to err and blaming each other doesn’t get us
-anywhere.
-Instead, focus on helping to resolve issues and learning from mistakes.
-
-Assume the person you have a disagreement with really does want the best for
-BioJulia, just as you do.
-Therefore, if you are ever unsure what the meaning or tone of a comment may be,
-in the first instance, assume your fellow BioJulia member is acting in good
-faith, this may well be a mistake in communication
-(with the scientific community as diverse as it is, such mis-steps are likely!).
-If you are comfortable doing so, ask them to clarify what they mean or to rephrase
-their point. If you don't feel comfortable doing this, or if it is clear the
-behaviour is hostile and not acceptable, please report it (see next section).
