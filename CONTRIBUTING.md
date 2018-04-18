@@ -10,7 +10,7 @@ These are mostly guidelines, not rules.
 Use your best judgment, and feel free to propose changes to this document in a
 pull request.
 
-#### Table of contents
+## Table of contents
 
 [I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
 
@@ -28,8 +28,10 @@ pull request.
 
 [Styleguides](#styleguides)
   * [Git Commit Messages](#git-commit-messages)
-  * [Julia Code Styleguide](#javascript-styleguide)
+  * [Additional julia style suggestions](#additional-julia-style-suggestions)
   * [Documentation Styleguide](#documentation-styleguide)
+
+[Additional notes](#additional-notes)
 
 ## I don't want to read this whole thing I just have a question!!!
 
@@ -339,9 +341,21 @@ git clone https://github.com/<YOUR_GITHUB_USERNAME_HERE>/BioSequences.jl.git
 Git will download or "clone" your fork and put it in a folder called
 BioSequences.jl it creates in your current directory.
 
+It is beyond the scope of this document to describe good git and github use in
+more specific detail, as the folks at Git and GitHub have already done that wonderfully
+on their own sites. If you have additional questions, simply ping a BioJulia
+member or the [BioJulia Gitter](https://gitter.im/BioJulia/Bio.jl).
+
 #### How to make (good) code contributions and new Pull-Requests
 
 1. **In your code changes**
+
+   - **Branch properly!**
+     - If you are making a bug-fix, then you need to checkout your bug-fix branch
+       from the last release tag.
+     - If you are making a feature addition or other enhancement, checkout your
+       branch from master.
+     - See [here](#a-suggested-branching-model) for more information (or ask a package maintainer :smile:).
 
    - Follow the [julia style guide](https://docs.julialang.org/en/stable/manual/style-guide/).
 
@@ -504,7 +518,7 @@ this, may offer to take on this [responsibility](#biojulia-administrators).
     * :arrow_down: `:arrow_down:` when downgrading dependencies
     * :exclamation: `:exclamation:` when removing warnings or depreciations
 
-### Additional julia code style suggestions
+### Additional julia style suggestions
 
 * Source code files should have the following style of header:
 
@@ -601,7 +615,7 @@ you work more smoothly with the maintainer of the package.
 
 There are several options available, including git-flow.
 
-Below is a BioJulia recommended branching model for your repo, but it is
+Below is a recommended branching model for your repo, but it is
 only a suggestion. What is best for you as the
 [dedicated maintainer(s)](#biojulia-package-maintainers), is best for _you_.
 
