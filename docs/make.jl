@@ -6,7 +6,9 @@ makedocs(
     pages = [
         "Home" => "README.md",
         "Contributing" => "CONTRIBUTING.md",
-        "Etiquette and conduct" => "CODE_OF_CONDUCT.md"
+        "Etiquette and conduct" => "CODE_OF_CONDUCT.md",
+        "Changelog" => "CHANGELOG.md",
+        "Authors" => "AUTHORS.md"
     ],
     authors = "Ben J. Ward, The BioJulia organisation, and contributors."
 )

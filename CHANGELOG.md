@@ -13,5 +13,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - A bug report GitHub issue template.
 - A file with a statement on etiquette and conduct.
 
-### Removed
-- The old Contributing site and Documenter.jl stuff.
+### Changed
+- Contributing site generated from the symbolically linked files.
