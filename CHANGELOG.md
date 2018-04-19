@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - An example CHANGELOG file for all BioJulia projects.
 - An enhancement proposal GitHub issue template.
 - A bug report GitHub issue template.
+- A pull request template.
 - A file with a statement on etiquette and conduct.
 
 ### Changed
