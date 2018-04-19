@@ -542,15 +542,25 @@ this, may offer to take on this [responsibility](#biojulia-administrators).
 
 - Indent with 4 spaces.
 
+- For functions that are not a single expression, it is preferred to use an explicit `return`.
+  Be aware that functions in julia implicitly return the the result of the last
+  expression in the function, so plain `return` should be used to indicate that
+  the function returns `nothing`.
+
 - Type names are camel case, with the first letter capitalized. E.g.
   `SomeVeryUsefulType`.
 
-- Module names are also camel case.
+- Module names should be camel case.
+
+- Separate logical blocks of code with one blank line. Although it is common
+  and acceptable for short single-line functions to be defined together on
+  consecutive lines with no blank lines between them.
 
 - Function names, apart from constructors, are all lowercase.
   Include underscores between words only if the name would be hard
   to read without.
-  E.g.  `start`, `stop`, `findletter` `find_last_digit`.
+  E.g.  `start`, `stop`, `find_letter` `find_last_digit`.
+  It is good to separate concepts in a name with a `_`.
 
 - Generally try to keep lines below 100-columns, unless splitting a long line
   onto multiple lines makes it harder to read.
@@ -597,10 +607,14 @@ name!(node, "somename") # set node name
 - When using conditional branching, if code is statement-like, an
   if-else block should be used. However if the code is expression-like
   then julia's ternary operator should be used.
-
-```julia
-matches == sketchlen ? 1.0 : matches / (2 * sketchlen - matches)
-```
+  ```julia
+  matches == sketchlen ? 1.0 : matches / (2 * sketchlen - matches)
+  ```
+  Some simple checks and expressions are also expressed using the `&&` or `||`
+  operators instead of if-else syntax. For example:
+  ```julia
+  isvalid(foo) || throw(ArgumentError("$foo is not valid"))
+  ```
 
 ## Additional Notes
 
