@@ -195,7 +195,7 @@ Please do the following:
 Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
 After you've determined [which repository](https://github.com/BioJulia)
 your bug is related to, create an issue on that repository and provide the
-following information by filling in [our bug report template](.github/ISSUE_TEMPLATE/BUG_REPORT.md).
+following information by filling in [template](.github/ISSUE_TEMPLATE.md).
 This template will help you to follow the guidance below.
 
 When you are creating a bug report, please do the following:
@@ -248,7 +248,7 @@ When you are creating a bug report, please do the following:
   [code block](https://help.github.com/articles/markdown-basics/#multiple-lines)
   or with a link to a [gist](https://gist.github.com/).
 
-*Note: All of the above guidance is included in the [template](.github/ISSUE_TEMPLATE/BUG_REPORT.md) for your convenience.*
+*Note: All of the above guidance is included in the [template](.github/ISSUE_TEMPLATE.md) for your convenience.*
 
 ### Suggest an Enhancement
 
@@ -279,7 +279,7 @@ Enhancement proposals are tracked as
 [GitHub issues](https://guides.github.com/features/issues/).
 After you've determined which package your enhancement proposals is related to,
 create an issue on that repository and provide the following information by
-filling in [our enhancement proposal template](.github/ISSUE_TEMPLATE/SUGGESTION.md).
+filling in [template](.github/ISSUE_TEMPLATE.md).
 This template will help you to follow the guidance below.
 
 1. **Explain the enhancement**
@@ -314,7 +314,7 @@ This template will help you to follow the guidance below.
 
    - Specify the *name and version of the OS* you're using.
 
-*Note: All of the above guidance is included in the [template](.github/ISSUE_TEMPLATE/SUGGESTION.md) for your convenience.*
+*Note: All of the above guidance is included in the [template](.github/ISSUE_TEMPLATE.md) for your convenience.*
 
 ### Making Pull Requests
 
