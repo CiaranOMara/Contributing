@@ -29,7 +29,6 @@ pull request.
 [Styleguides](#styleguides)
   - [Git Commit Messages](#git-commit-messages)
   - [Additional julia style suggestions](#additional-julia-style-suggestions)
-  - [Documentation Styleguide](#documentation-styleguide)
 
 [Additional notes](#additional-notes)
   - [A suggested branching model](#a-suggested-branching-model)
