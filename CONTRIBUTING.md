@@ -475,8 +475,8 @@ more of the following to [contribute](#how-can-i-contribute) to BioJulia in the 
 
 1. You have [submitted a new package](#submitting-a-package-to-biojulia) to BioJulia.
 2. [Reported a bug](#reporting-bugs).
-3. [Suggested enhancements](#suggesting-enhancements).
-4. [Made one or more pull requests](#pull-requests) implementing one or more...
+3. [Suggested enhancements](#suggest-an-enhancement).
+4. [Made one or more pull requests](#making-pull-requests) implementing one or more...
     - Fixed bugs.
     - Improved performance.
     - Added new functionality.
