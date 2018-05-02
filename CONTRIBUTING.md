@@ -322,7 +322,7 @@ For information on how to do this, see this section of the julia
 [documentation](https://docs.julialang.org/en/stable/manual/packages/#Package-Development-1).
 
 Before you start working on code, it is often a good idea to open an enhancement
-[suggestion](#suggest-an-enhancement)
+[suggestion](#suggest-an-enhancement).
 
 Once you decide to start working on code, the first thing you should do is make
 yourself an account on [Github](https://github.com).
@@ -365,7 +365,7 @@ member or the [BioJulia Gitter](https://gitter.im/BioJulia/Bio.jl).
 
    - Follow the [julia style guide](https://docs.julialang.org/en/stable/manual/style-guide/).
 
-   - Follow the [additional style suggestions](#additional-julia-code-style-suggestions).
+   - Follow the [additional style suggestions](#additional-julia-style-suggestions).
 
    - Follow the [julia performance tips](https://docs.julialang.org/en/stable/manual/performance-tips/).
 
