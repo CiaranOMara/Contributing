@@ -194,7 +194,7 @@ Please do the following:
 Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
 After you've determined [which repository](https://github.com/BioJulia)
 your bug is related to, create an issue on that repository and provide the
-following information by filling in [template](.github/ISSUE_TEMPLATE.md).
+following information by filling in [this template](.github/ISSUE_TEMPLATE.md).
 This template will help you to follow the guidance below.
 
 When you are creating a bug report, please do the following:
