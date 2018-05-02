@@ -278,7 +278,7 @@ Enhancement proposals are tracked as
 [GitHub issues](https://guides.github.com/features/issues/).
 After you've determined which package your enhancement proposals is related to,
 create an issue on that repository and provide the following information by
-filling in [template](.github/ISSUE_TEMPLATE.md).
+filling in [this template](.github/ISSUE_TEMPLATE.md).
 This template will help you to follow the guidance below.
 
 1. **Explain the enhancement**
