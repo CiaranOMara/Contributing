@@ -23,7 +23,7 @@ pull request.
 [How Can I Contribute?](#how-can-i-contribute)
   - [Reporting Bugs](#reporting-bugs)
   - [Suggesting an Enhancement](#suggest-an-enhancement)
-  - [Making Pull Requests](#pull-requests)
+  - [Making Pull Requests](#making-pull-requests)
   - [Become a BioJulia package maintainer](#become-a-biojulia-package-maintainer)
 
 [Styleguides](#styleguides)
