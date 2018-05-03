@@ -43,5 +43,6 @@ _(Please tick any or all of the following that are applicable)_
 - [ ] :ok: There are unit tests that cover the code changes I have made.
 - [ ] :ok: The unit tests cover my code changes AND they pass.
 - [ ] :pencil: I have added an entry to the `[UNRELEASED]` section of the manually curated `CHANGELOG.md` file for this repository.
+- [ ] :pencil: I have added myself to the "Thanks" section of the `HUMANS.md` file for this repository.
 - [ ] :ok: All changes should be compatible with the latest stable version of Julia.
 - [ ] :thought_balloon: I have commented liberally for any complex pieces of internal code.

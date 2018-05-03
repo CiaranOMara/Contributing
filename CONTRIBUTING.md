@@ -48,6 +48,59 @@ then come on over to the Gitter and we'll be happy to help.
 
 ## What should I know about BioJulia **BEFORE** I get started?
 
+### Package conventions
+
+First, be familiar with the official julia documentation on:
+
+* [Packages](https://docs.julialang.org/en/stable/manual/packages/)
+* [Package Development](https://docs.julialang.org/en/stable/manual/packages/#Package-Development-1)
+* [Modules](https://docs.julialang.org/en/stable/manual/modules/)
+
+Package names should be a simple and self explanatory as possible, avoiding
+unneeded acronyms.
+
+Packages introducing some key type or method/algorithm should be named
+accordingly.
+
+For example, the BioJulia package introducing biological sequence types and
+functionality to process sequence data is called "BioSequences".
+GitHub repository names of BioJulia packages should end in `.jl`, even though
+the package name itself does not.
+i.e. "BioSequences" is the name of the package, and the name of its GitHub
+repository is "BioSequences.jl".
+
+Considerate and simple naming greatly assists people in finding the kind of
+package or functionality they are looking for.
+
+File names of files containing julia code in packages should end in `.jl`.
+
+All user facing types and functions (i.e. all types and functions
+exported from the module of a package), should be documented.
+Documentation regarding specific implementation details that aren't relevant
+to users should be in the form of comments. Please *DO* comment liberally for
+complex pieces of code!
+
+We use [Documenter.jl](https://github.com/JuliaDocs/Documenter.jl),
+to generate user and developer documentation and host it on the web.
+The source markdown files for such manuals is kept in the `docs/src/`
+folder of each BioJulia package/repository.
+
+The code in all BioJulia packages is unit tested. Such tests should be
+organized into contexts, and into separate files based on module.
+
+Files for tests for a module go into an appropriately named folder, within the
+`test` folder in the git repo.
+
+Every package should have:
+
+- A contributing guide file (`CONTRIBUTING.md`).
+- A `HUMANS.md` file listing the [maintainers](#biojulia-package-maintainers) and contributors.
+- A manually curated `CHANGELOG.md` file.
+
+BioJulia standard templates of these files are maintained [here](https://github.com/BioJulia/Contributing)
+and are rolled out to all new repositories, but may differ slightly between packages based
+on the needs of the package and its maintainers.
+
 ### BioJulia Package Maintainers
 
 In order to provide the best possible experience for new and existing users of
@@ -57,15 +110,18 @@ necessary.
 Each package is dedicated to introducing a specific data type or algorithm, or
 dealing with a specific biological problem or pipeline.
 
-Whilst there are some "meta-packages" such as Bio.jl, which bundle individual
+Whilst there are some "meta-packages" such as [Bio.jl](https://github.com/BioJulia/Bio.jl), which bundle individual
 packages together for convenience of installation and use, most of the BioJulia
-software ecosystem is quite decentralized.
+software ecosystem is quite decentralized: different scientists with different
+expertise use and contribute to them.
 
 Therefore, it made sense that maintenance of the packages should also be
 fairly decentralized, to achieve this, we created the role of a "Package
 Maintainer".
 
-The maintainer(s) for a given package are listed in the packages README.md file.
+The maintainer(s) for a given package are listed in the package's `README.md` file
+and the contact details for them (at least their email and GitHub names) are
+provided in the package's `HUMANS.md` file.
 
 The maintainers of a package are responsible for the following aspects of the
 package they maintain.
@@ -120,49 +176,6 @@ The admin team is expected to:
 BioJulia outlines a [statement of etiquette and conduct](CODE_OF_CONDUCT.md)
 that all members and contributors are expected to uphold. Please take the time
 to read and understand this statement.
-
-### Package conventions
-
-First, be familiar with the official julia documentation on:
-
-* [Packages](https://docs.julialang.org/en/stable/manual/packages/)
-* [Package Development](https://docs.julialang.org/en/stable/manual/packages/#Package-Development-1)
-* [Modules](https://docs.julialang.org/en/stable/manual/modules/)
-
-Package names should be a simple and self explanatory as possible, avoiding
-unneeded acronyms.
-
-Packages introducing some key type or method/algorithm should be named
-accordingly.
-
-For example, the BioJulia package introducing biological sequence types and
-functionality to process sequence data is called "BioSequences".
-GitHub repository names of BioJulia packages should end in `.jl`, even though
-the package name itself does not.
-i.e. "BioSequences" is the name of the package, and the name of its GitHub
-repository is "BioSequences.jl".
-
-Considerate and simple naming greatly assists people in finding the kind of
-package or functionality they are looking for.
-
-File names of files containing julia code in packages should end in `.jl`.
-
-All user facing types and functions (i.e. all types and functions
-exported from the module of a package), should be documented.
-Documentation regarding specific implementation details that aren't relevant
-to users should be in the form of comments. Please *DO* comment liberally for
-complex pieces of code!
-
-We use [Documenter.jl](https://github.com/JuliaDocs/Documenter.jl),
-to generate user and developer documentation and host it on the web.
-The source markdown files for such manuals is kept in the `docs/src/`
-folder of each BioJulia package/repository.
-
-The code in all BioJulia packages is unit tested. Such tests should be
-organized into contexts, and into separate files based on module.
-
-Files for tests for a module go into an appropriately named folder, within the
-`test` folder in the git repo.
 
 ## How can I contribute?
 
@@ -379,7 +392,10 @@ member or the [BioJulia Gitter](https://gitter.im/BioJulia/Bio.jl).
    - Ensure that you have added an entry to the `[UNRELEASED]` section of the
      manually curated `CHANGELOG.md` file for the package. Use previous entries as
      an example. Ensure the `CHANGELOG.md` is consistent with the
-    recommended [changelog style](EXAMPLE_CHANGELOG.md).
+    recommended [changelog style](https://github.com/BioJulia/Contributing/blob/master/EXAMPLE_CHANGELOG.md).
+
+   - (Optionally) add your name to the "Thanks" section of the repository's `HUMANS.md`
+     file.
 
    - All changes should be compatible with the latest stable version of
      Julia.
