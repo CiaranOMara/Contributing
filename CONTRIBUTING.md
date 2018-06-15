@@ -10,15 +10,16 @@ These are mostly guidelines, not rules.
 Use your best judgment, and feel free to propose changes to this document in a
 pull request.
 
+
 ## Table of contents
 
 [I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
 
 [What should I know about BioJulia before I get started?](#what-should-i-know-about-biojulia-before-i-get-started)
+  - [Package Conventions](#package-conventions)
   - [BioJulia Package Maintainers](#biojulia-package-maintainers)
   - [BioJulia Administrators](#biojulia-administrators)
   - [Etiquette and conduct](#etiquette-and-conduct)
-  - [Package Conventions](#package-conventions)
 
 [How Can I Contribute?](#how-can-i-contribute)
   - [Reporting Bugs](#reporting-bugs)
@@ -33,18 +34,20 @@ pull request.
 [Additional notes](#additional-notes)
   - [A suggested branching model](#a-suggested-branching-model)
 
+
 ## I don't want to read this whole thing I just have a question!!!
 
 We understand you are excited to get involved already!
 But please don't file an issue to ask a question.
 You'll get faster results by using the resources below.
 
-We have a Gitter message chat room where the community
-chimes in with helpful advice if you have questions.
+We have a [Discord server](https://discord.gg/z73YNFz) where the community chimes in with helpful advice
+if you have questions.
 If you just have a question, or a problem that is not covered by this guide,
-then come on over to the Gitter and we'll be happy to help.
+then come on over to the [Discord server](https://discord.gg/z73YNFz) and
+we'll be happy to help. You may also find help at the 
+[Bio category of the Julia discourse site](https://discourse.julialang.org/c/domain/bio).
 
-* [Gitter, BioJulia message board](https://gitter.im/BioJulia/Bio.jl)
 
 ## What should I know about BioJulia **BEFORE** I get started?
 
@@ -94,12 +97,68 @@ Files for tests for a module go into an appropriately named folder, within the
 Every package should have:
 
 - A contributing guide file (`CONTRIBUTING.md`).
-- A `HUMANS.md` file listing the [maintainers](#biojulia-package-maintainers) and contributors.
+- A `HUMANS.md` file listing the [maintainers](#biojulia-package-maintainers)
+  and contributors.
 - A manually curated `CHANGELOG.md` file.
 
 BioJulia standard templates of these files are maintained [here](https://github.com/BioJulia/Contributing)
 and are rolled out to all new repositories, but may differ slightly between packages based
 on the needs of the package and its maintainers.
+
+If you have any questions on the files and layout of a package after reading
+through all the contributing guidelines, look at the
+source tree of [Bio.jl](https://github.com/BioJulia/Bio.jl) and use it as an
+example guide. If questions remain,
+ask a BioJulia member :)
+
+#### Package lifecycles
+
+We use the following lifecycle badges in package `README.md` files to convey
+the maturity and maintainership status of packages:
+
+![Lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=flat-square) 
+
+Experimental packages are in early stages of development. You should expect
+frequent breaking API changes. You are generally best off waiting for such
+packages to enter a more mature lifecycle stage before use (unless you are
+contributing to said experimental package). Maintainers make no promises
+regarding backward compatibility.
+
+![Lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg?style=flat-square)
+
+The user facing API of a maturing package has been worked out. But details are
+likely to change. Breaking changes to API may occur if user feedback shows
+it would be beneficial to do so. Maintainers will try to maintain some
+backward compatibility, but make no guarantees.
+
+![Lifecycle](https://img.shields.io/badge/lifecycle-stable-green.svg?style=flat-square)
+
+The maintainers of a stable package are happy with the API of the package.
+Major breaking changes are unlikely, and where they occur, maintainers will
+make every effort to maintain backwards compatiblity. Breaking API changes will
+occur gradually, first a function will work but will emit warnings, and then
+in future versions will throw an error.
+
+![Lifecycle](https://img.shields.io/badge/lifecycle-retired-orange.svg?style=flat-square)
+
+Retired packages are no longer updated by the maintainers.
+Very often retired packages have some better alternative available.
+Retired packages are maintained for legacy reasons and old projects, but
+no new features will be added and only the most severe bugs will be fixed.
+
+![Lifecycle](https://img.shields.io/badge/lifecycle-archived-red.svg?style=flat-square)
+
+No development occurs on an archived package. It's considered a dead package.
+
+![Lifecycle](https://img.shields.io/badge/lifecycle-dormant-blue.svg?style=flat-square) 
+
+Dormant packages are not complete, but are not archived or retired. It is hoped
+a BioJulia member will return to it in the future, or a new member takes up
+the mantle.
+
+_A big thank you to the good folks at [tidyverse](https://www.tidyverse.org/lifecycle/)
+for this method of labelling packages._
+
 
 ### BioJulia Package Maintainers
 
@@ -155,6 +214,7 @@ branches (especially master), or re-writing history of branches.
 Please defer to the judgement of the maintainers dedicated in the README of the
 package.
 
+
 ### BioJulia Administrators
 
 BioJulia has a select group of members in an Admin team.
@@ -171,11 +231,13 @@ The admin team is expected to:
    platforms used by BioJulia, and the maintenance of any hardware like
    servers owned and used by BioJulia.
 
+
 ### Etiquette and conduct
 
 BioJulia outlines a [statement of etiquette and conduct](CODE_OF_CONDUCT.md)
 that all members and contributors are expected to uphold. Please take the time
 to read and understand this statement.
+
 
 ## How can I contribute?
 
@@ -185,6 +247,7 @@ Here we show you how to submit a bug report for a BioJulia repository.
 If you follow the advice here, BioJulia maintainers and the community will
 better understand your report :pencil:, be able to reproduce the behaviour
 :computer: :computer:, and identify related problems :mag_right:.
+
 
 #### Before creating a bug report:
 
@@ -201,6 +264,7 @@ Please do the following:
    > **Note:** If you find a **Closed** issue that seems like it is the same thing
    > that you're experiencing, open a new issue and include a link to the original
    > issue in the body of your new one.
+
 
 #### How to create a (good) new bug report:
 
@@ -262,6 +326,7 @@ When you are creating a bug report, please do the following:
 
 *Note: All of the above guidance is included in the [template](.github/ISSUE_TEMPLATE.md) for your convenience.*
 
+
 ### Suggest an Enhancement
 
 This section explains how to submit an enhancement proposal for a BioJulia
@@ -269,6 +334,7 @@ package. This includes completely new features, as well as minor improvements to
 existing functionality.
 Following these suggestions will help maintainers and the community understand
 your suggestion :pencil: and find related suggestions :mag_right:.
+
 
 #### Before Submitting An Enhancement Proposal
 
@@ -284,6 +350,7 @@ your suggestion :pencil: and find related suggestions :mag_right:.
       ask! :) ), and consider whether anything has changed that makes the reason
       outdated. If you can think of a convincing reason to reconsider the
       enhancement, feel free to open a new issue as per the guidance below.
+
 
 #### How to submit a (good) new enhancement proposal
 
@@ -328,6 +395,7 @@ This template will help you to follow the guidance below.
 
 *Note: All of the above guidance is included in the [template](.github/ISSUE_TEMPLATE.md) for your convenience.*
 
+
 ### Making Pull Requests
 
 BioJulia packages (and all julia packages) can be developed locally.
@@ -363,7 +431,8 @@ BioSequences.jl it creates in your current directory.
 It is beyond the scope of this document to describe good git and github use in
 more specific detail, as the folks at Git and GitHub have already done that wonderfully
 on their own sites. If you have additional questions, simply ping a BioJulia
-member or the [BioJulia Gitter](https://gitter.im/BioJulia/Bio.jl).
+member or the [Discord server](https://discord.gg/z73YNFz).
+
 
 #### How to make (good) code contributions and new Pull-Requests
 
@@ -391,8 +460,7 @@ member or the [BioJulia Gitter](https://gitter.im/BioJulia/Bio.jl).
 
    - Ensure that you have added an entry to the `[UNRELEASED]` section of the
      manually curated `CHANGELOG.md` file for the package. Use previous entries as
-     an example. Ensure the `CHANGELOG.md` is consistent with the
-    recommended [changelog style](https://github.com/BioJulia/Contributing/blob/master/EXAMPLE_CHANGELOG.md).
+     an example.
 
    - (Optionally) add your name to the "Thanks" section of the repository's `HUMANS.md`
      file.
@@ -430,6 +498,7 @@ member or the [BioJulia Gitter](https://gitter.im/BioJulia/Bio.jl).
 
 *Note: All of the above guidance is included in the [template](.github/PULL_REQUEST_TEMPLATE.md) for your convenience.*
 
+
 #### Reviews and merging
 
 You can open a pull request early on and push changes to it until it is ready,
@@ -456,6 +525,7 @@ understand why any such request has been made, and freely discuss it with the
 reviewers. Feedback you receive should be constructive and considerate
 (also see [here](#etiquette-and-conduct)).
 
+
 ### Submitting a package to BioJulia
 
 If you have written a package, and would like to have it listed under -
@@ -475,12 +545,13 @@ and endorsed by - the BioJulia organization, you're agreeing to the following:
 
 To submit your package, follow these steps:
 
-1. Introduce yourself and your package on the BioJulia Gitter channel.
+1. Introduce yourself and your package on the BioJulia Discord server.
 2. At this point maintainers will reach out to mentor and vouch for you and your package. They will:
   1. Discuss with you a suitable name.
   2. Help you ensure the the package is up to standard, and meets the code and contribution guidelines described on this site.
   3. Add you to the BioJulia organisation if you wish to become a BioJulia maintainer.
   4. Transfer ownership of the package.
+
 
 ### Become a BioJulia package maintainer
 
@@ -506,6 +577,7 @@ willing to do so.
 Any other avenue for demonstrating commitment to the community and the
 GitHub organisation will also be considered.
 
+
 ### BioJulia members can sometimes become administrators
 
 Members of the admin team have often been contributing to BioJulia for a long
@@ -516,6 +588,18 @@ Rather the decision to on-board a member to an admin position requires a history
 of using and contributing to BioJulia, and a positive
 interaction and involvement with the community. Any BioJulia member fulfilling
 this, may offer to take on this [responsibility](#biojulia-administrators).
+
+
+### Financial contributions
+
+We welcome financial contributions in full transparency on our open collective.
+Anyone can file an expense. If the expense makes sense for the development of
+the community, it will be "merged" in the ledger of our open collective by the
+core contributors and the person who filed the expense will be reimbursed.
+
+Backers and Sponsored are features on BioJulia web-pages and package repositories
+as a thank you for supporting the project.
+
 
 ## Styleguides
 
@@ -539,6 +623,7 @@ this, may offer to take on this [responsibility](#biojulia-administrators).
     * :arrow_up: `:arrow_up:` when upgrading dependencies
     * :arrow_down: `:arrow_down:` when downgrading dependencies
     * :exclamation: `:exclamation:` when removing warnings or depreciations
+
 
 ### Additional julia style suggestions
 
@@ -653,6 +738,7 @@ We describe it in summary here for convenience, but we recommend you check out
 the blog article as a lot more justification and reasoning is presented on _why_
 this model is the way it is.
 
+
 #### During development
 
 1. There is only one main branch - you can call it anything, but usually it's
@@ -682,6 +768,7 @@ git merge --no-ff feature/my-feature
 git push origin master
 git branch -d feature/my-feature
 ```
+
 
 #### :sparkles: Making new releases
 
@@ -714,6 +801,7 @@ git push origin :release/2.3.0
 ```
 
 7. Do your pushes, and go to GitHub to make your release available.
+
 
 #### :bug: Hot-fixes and hot-fix releases
 
