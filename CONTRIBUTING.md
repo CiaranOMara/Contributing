@@ -97,8 +97,6 @@ Files for tests for a module go into an appropriately named folder, within the
 Every package should have:
 
 - A contributing guide file (`CONTRIBUTING.md`).
-- A `HUMANS.md` file listing the [maintainers](#biojulia-package-maintainers)
-  and contributors.
 - A manually curated `CHANGELOG.md` file.
 
 BioJulia standard templates of these files are maintained [here](https://github.com/BioJulia/Contributing)
@@ -107,57 +105,15 @@ on the needs of the package and its maintainers.
 
 If you have any questions on the files and layout of a package after reading
 through all the contributing guidelines, look at the
-source tree of [Bio.jl](https://github.com/BioJulia/Bio.jl) and use it as an
+source tree of [BioSequences.jl](https://github.com/BioJulia/BioSequences.jl) and use it as an
 example guide. If questions remain,
 ask a BioJulia member :)
 
 #### Package lifecycles
 
-We use the following lifecycle badges in package `README.md` files to convey
-the maturity and maintainership status of packages:
-
-![Lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=flat-square) 
-
-Experimental packages are in early stages of development. You should expect
-frequent breaking API changes. You are generally best off waiting for such
-packages to enter a more mature lifecycle stage before use (unless you are
-contributing to said experimental package). Maintainers make no promises
-regarding backward compatibility.
-
-![Lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg?style=flat-square)
-
-The user facing API of a maturing package has been worked out. But details are
-likely to change. Breaking changes to API may occur if user feedback shows
-it would be beneficial to do so. Maintainers will try to maintain some
-backward compatibility, but make no guarantees.
-
-![Lifecycle](https://img.shields.io/badge/lifecycle-stable-green.svg?style=flat-square)
-
-The maintainers of a stable package are happy with the API of the package.
-Major breaking changes are unlikely, and where they occur, maintainers will
-make every effort to maintain backwards compatiblity. Breaking API changes will
-occur gradually, first a function will work but will emit warnings, and then
-in future versions will throw an error.
-
-![Lifecycle](https://img.shields.io/badge/lifecycle-retired-orange.svg?style=flat-square)
-
-Retired packages are no longer updated by the maintainers.
-Very often retired packages have some better alternative available.
-Retired packages are maintained for legacy reasons and old projects, but
-no new features will be added and only the most severe bugs will be fixed.
-
-![Lifecycle](https://img.shields.io/badge/lifecycle-archived-red.svg?style=flat-square)
-
-No development occurs on an archived package. It's considered a dead package.
-
-![Lifecycle](https://img.shields.io/badge/lifecycle-dormant-blue.svg?style=flat-square) 
-
-Dormant packages are not complete, but are not archived or retired. It is hoped
-a BioJulia member will return to it in the future, or a new member takes up
-the mantle.
-
-_A big thank you to the good folks at [tidyverse](https://www.tidyverse.org/lifecycle/)
-for this method of labelling packages._
+We use the status badges defined by [repostatus](https://www.repostatus.org/) to classify
+the development and maintainership status of each of our packages. Please familiarise
+yourself with these.
 
 
 ### BioJulia Package Maintainers
