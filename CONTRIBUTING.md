@@ -55,9 +55,9 @@ we'll be happy to help. You may also find help at the
 
 First, be familiar with the official julia documentation on:
 
-* [Packages](https://docs.julialang.org/en/stable/manual/packages/)
-* [Package Development](https://docs.julialang.org/en/stable/manual/packages/#Package-Development-1)
-* [Modules](https://docs.julialang.org/en/stable/manual/modules/)
+* [Packages](https://julialang.github.io/Pkg.jl/v1/getting-started/)
+* [Package Development](https://julialang.github.io/Pkg.jl/v1/creating-packages/)
+* [Modules](https://docs.julialang.org/en/v1/manual/modules/)
 
 Package names should be a simple and self explanatory as possible, avoiding
 unneeded acronyms.
@@ -356,7 +356,7 @@ This template will help you to follow the guidance below.
 
 BioJulia packages (and all julia packages) can be developed locally.
 For information on how to do this, see this section of the julia
-[documentation](https://docs.julialang.org/en/stable/manual/packages/#Package-Development-1).
+[documentation](https://julialang.github.io/Pkg.jl/v1/creating-packages/).
 
 Before you start working on code, it is often a good idea to open an enhancement
 [suggestion](#suggest-an-enhancement).
@@ -401,13 +401,13 @@ member or the [Discord server](https://discord.gg/z73YNFz).
        branch from master.
      - See [here](#a-suggested-branching-model) for more information (or ask a package maintainer :smile:).
 
-   - Follow the [julia style guide](https://docs.julialang.org/en/stable/manual/style-guide/).
+   - Follow the [julia style guide](https://docs.julialang.org/en/v1/manual/style-guide/).
 
    - Follow the [additional style suggestions](#additional-julia-style-suggestions).
 
-   - Follow the [julia performance tips](https://docs.julialang.org/en/stable/manual/performance-tips/).
+   - Follow the [julia performance tips](https://docs.julialang.org/en/v1/manual/performance-tips/).
 
-   - Update and add docstrings for new code, consistent with the [documentation styleguide](https://docs.julialang.org/en/stable/manual/documentation/).
+   - Update and add docstrings for new code, consistent with the [documentation styleguide](https://docs.julialang.org/en/v1/manual/documentation/).
 
    - Update information in the documentation located in the `docs/src/`
      folder of the package/repository if necessary.
