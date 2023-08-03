@@ -4,7 +4,7 @@
 
 - Kevin Bonham
   - GitHub: [kescobo](https://github.com/kescobo)
-  - Mastadon: [@Kbonham@scicomm.xyz](https://scicomm.xyz/@Kbonham)
+  - Mastodon: [@Kbonham@scicomm.xyz](https://scicomm.xyz/@Kbonham)
 - Jakob Nissen
   - GitHub: [jakobnissen](https://github.com/jakobnissen)
 - Sabrina Jaye Ward
