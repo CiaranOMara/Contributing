@@ -93,14 +93,17 @@ behaviour is hostile and not acceptable, please report it (see next section).
 
 If you are affected by the behaviour of a member or contributor of BioJulia,
 we ask that you report it by contacting the
-[BioJulia Admin Team](https://github.com/orgs/BioJulia/teams/admin/members)
-collectively, by emailing [admin@biojulia.net](admin@biojulia.net).
+[BioJulia Admin Team](https://github.com/orgs/BioJulia/teams/admins/members).
+Alternatively, or if BioJulia admins are part of your complaint,
+email the [julia community stewards](mailto:stewards@julialang.org)
+([see here](https://julialang.org/community/stewards/) for more information about the stewards).
+
 They will get back to you and begin to resolve the situation.
 In some cases we may determine that a public statement will need to be made.
 If that's the case, the identities of all involved will remain
 confidential unless those individuals instruct us otherwise.
 
-Ensure to include in your email:
+Ensure to include in your message:
 
 - Your contact info (so we can get in touch with you if we need to follow up).
 
@@ -116,4 +119,4 @@ Ensure to include in your email:
 
 - If you believe this incident is ongoing.
 
-- Any other information you believe we should have.s
+- Any other information you believe we should have.
